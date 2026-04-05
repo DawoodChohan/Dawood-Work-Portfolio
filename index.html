@@ -3,74 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dawood Portfolio</title>
+    <title>Dawood Afzaal — Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="top-nav">
-      <div class="logo">
-        <span class="logo-main">Dawood </span><span class="logo-accent">Afzaal</span>
-      </div>
-      <nav class="nav-links">
-        <a href="#home">Home</a>
+      <a href="#home" class="logo" aria-label="Home">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span class="logo-text"><span class="logo-main">DAWOOD</span><span class="logo-accent"> AFZAAL</span></span>
+      </a>
+      <nav class="nav-links" aria-label="Primary">
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
       </nav>
+      <a href="#contact" class="btn btn-hire">Hire Me</a>
     </header>
 
     <main id="home" class="hero">
       <section class="hero-content">
-        <p class="hero-kicker">24/7 Developer</p>
         <h1 class="hero-title">
-          <span> Helo I am Dawood Afzaal</span>
-          <span class="hero-neon">
-            <span class="animated-word word-1">Web,</span>
-            <span class="animated-word word-2">WordPress</span>
-            <span class="animated-word word-3">& SEO Expert</span>
-          </span>
+          <i>WooCommerce & eCommerce Expert</i>
+          <span class="hero-line">HELO IM <span class="hero-name">DAWOOD</span></span>
+          <span class="hero-line hero-line-role">FULL STACK <br><em>Wordpress DEVELOPER</em></<span>
         </h1>
-        <p class="hero-role">
-          FRONTEND DEVELOPER &amp; UI DESIGNER
-        </p>
         <p class="hero-text">
-          I build and optimize WordPress websites that are fast, SEO-friendly,
-          and convert visitors into customers.
+          Looking for one expert to design, develop, and optimize your WordPress website or WooCommerce store?
         </p>
-        <div class="social-links">
-          <a href="https://www.linkedin.com/in/m-dawood-afzaal-77610b331/" target="_blank" class="social-circle" aria-label="LinkedIn">
-            <span class="social-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M5 4a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm.6 5H3.4V20h2.2V9zM13 9.2c-2 0-3.3 1.1-3.3 3.1V20h2.2v-6.8c0-1 .6-1.7 1.7-1.7 1 0 1.6.6 1.6 1.7V20h2.2v-7.2C17.4 10.4 15.9 9.2 13 9.2z"/>
-              </svg>
-            </span>
-          </a>
-          <a href="https://github.com/DawoodChohan"  target="_blank" class="social-circle" aria-label="GitHub">
-            <span class="social-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M12 2C6.5 2 2 6.6 2 12.1c0 4.4 2.9 8.1 6.9 9.4.5.1.6-.2.6-.4v-1.6c-2.8.6-3.4-1.4-3.4-1.4-.4-1-1-1.3-1-1.3-.8-.5.1-.5.1-.5.9.1 1.3 1 1.3 1 .8 1.3 2.1.9 2.6.7.1-.6.3-.9.6-1.1-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.6 0 0 .8-.3 2.8 1a9.5 9.5 0 0 1 5.1 0c2-1.3 2.8-1 2.8-1 .5 1.3.2 2.3.1 2.6.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .3.2.6.8.6 1.6v2.3c0 .2.1.5.6.4a10.2 10.2 0 0 0 6.9-9.4C22 6.6 17.5 2 12 2z"/>
-              </svg>
-            </span>
-          </a>
-          <a href="https://www.upwork.com/freelancers/~01db85038363b0db10?viewMode=1" target="_blank" class="social-circle" aria-label="Upwork">
-            <span class="social-icon upwork">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <text
-                  x="6.5"
-                  y="15"
-                  font-size="8.5"
-                  font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
-                  font-weight="700"
-                  fill="currentColor"
-                >
-                  up
-                </text>
-              </svg>
-            </span>
-          </a>
-        </div>
         <div class="hero-actions">
           <a href="#projects" class="btn btn-solid">
             <span class="btn-icon">
@@ -81,333 +48,246 @@
                 <circle cx="12" cy="12" r="2.2" />
               </svg>
             </span>
-            <span>View Projects</span>
+            <span>View Portfolio</span>
           </a>
           <a href="#contact" class="btn btn-outline">
             <span class="btn-icon">
               <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path
-                  d="M3.4 20.6 20.2 12 3.4 3.4 3 11l9 1-9 1z"
-                />
+                <path d="M3.4 20.6 20.2 12 3.4 3.4 3 11l9 1-9 1z" />
               </svg>
             </span>
             <span>Contact Me</span>
           </a>
         </div>
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/muhammad-dawood-afzaal-77610b331/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-circle"
+            aria-label="LinkedIn"
+          >
+            <span class="social-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M5 4a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm.6 5H3.4V20h2.2V9zM13 9.2c-2 0-3.3 1.1-3.3 3.1V20h2.2v-6.8c0-1 .6-1.7 1.7-1.7 1 0 1.6.6 1.6 1.7V20h2.2v-7.2C17.4 10.4 15.9 9.2 13 9.2z"
+                />
+              </svg>
+            </span>
+          </a>
+          <a
+            href="https://github.com/DawoodChohan"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-circle"
+            aria-label="GitHub"
+          >
+            <span class="social-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path
+                  d="M12 2C6.5 2 2 6.6 2 12.1c0 4.4 2.9 8.1 6.9 9.4.5.1.6-.2.6-.4v-1.6c-2.8.6-3.4-1.4-3.4-1.4-.4-1-1-1.3-1-1.3-.8-.5.1-.5.1-.5.9.1 1.3 1 1.3 1 .8 1.3 2.1.9 2.6.7.1-.6.3-.9.6-1.1-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.6 0 0 .8-.3 2.8 1a9.5 9.5 0 0 1 5.1 0c2-1.3 2.8-1 2.8-1 .5 1.3.2 2.3.1 2.6.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .3.2.6.8.6 1.6v2.3c0 .2.1.5.6.4a10.2 10.2 0 0 0 6.9-9.4C22 6.6 17.5 2 12 2z"
+                />
+              </svg>
+            </span>
+          </a>
+          <a
+            href="https://www.upwork.com/freelancers/~01db85038363b0db10?viewMode=1"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="social-circle"
+            aria-label="Upwork"
+          >
+            <span class="social-icon upwork">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <text
+                  x="6.5"
+                  y="15"
+                  font-size="8.5"
+                  font-family="system-ui, sans-serif"
+                  font-weight="700"
+                  fill="currentColor"
+                >
+                  up
+                </text>
+              </svg>
+            </span>
+          </a>
+        </div>
       </section>
 
-      <section class="hero-visual">
-        <div class="neon-shape">
+      <section class="hero-visual" aria-hidden="true">
+        <div class="hero-orbit">
+          <span class="float-tag float-tag-1">
+            <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M12 2l2.4 7.4h7.6l-6 4.6 2.3 7-6.3-4.6-6.3 4.6 2.3-7-6-4.6h7.6z"/></svg>
+            Full Stack
+          </span>
+          <span class="float-tag float-tag-2">
+            <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M4 4h16v5H4V4zm0 7h16v5H4v-5zm2-6v2h2V5H6zm0 7v2h2v-2H6z"/></svg>
+            WordPress
+          </span>
+          <span class="float-tag float-tag-3">
+            <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M8.5 5 3 11l5.5 6 1.5-1.4L6 11l3.9-4.6L8.5 5zm7 0L14 6.4 18 11l-4 4.6L15.5 17 21 11l-5.5-6z"/></svg>
+            WooCommerce & eCommerce Expert
+          </span>
         </div>
-
+        <div class="neon-shape"></div>
         <div class="profile-wrapper">
-          <img
-            src="images/dawood.jpeg"
-            alt="Dawood profile photo"
-            class="profile-image"
-          />
+          <img src="images/dawood.jpeg" alt="Dawood Afzaal" class="profile-image" width="260" height="260" />
         </div>
       </section>
     </main>
 
     <section id="about" class="about">
-      <div class="about-content">
-        <h2 class="about-title">
-          About <span>Me</span>
-        </h2>
-        <p class="about-text">
-          Hi, I am Dawood Afzaal, a <span>Web, WordPress, and SEO Expert</span> with a passion for building fast, modern, and user-friendly websites. 
-          I also work on <span>Shopify</span> store setup, theme customization, product uploads, and app integration. 
-          In addition, I can work across a mix of platforms including <span>Wix, Squarespace, and other website builders</span>
-          I help businesses create a strong online presence through clean design, responsive layouts, and SEO-optimized solutions.
-          I focus on quality, clear communication, and delivering work that helps clients grow.
-        </p>
-        <button class="btn btn-outline btn-about">
-          <span class="btn-icon">
-            <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M6 3h9l5 5v13H6V3zm9 2H8v14h10V9h-3a1 1 0 0 1-1-1V5z" />
-            </svg>
-          </span>
-          <span>Read More</span>
-        </button>
+      <h2 class="section-heading section-heading-center">
+        <span class="section-heading-text">About Me</span>
+      </h2>
+      <div class="about-panel">
+        <div class="about-col about-col-main">
+          <p class="about-lead">Half a decade of digital craftsmanship.</p>
+          <p class="about-text">
+            I help businesses build and optimize <strong>WordPress sites, landing pages, and WooCommerce stores</strong> that load fast, scale cleanly, and convert. Whether you need a new build or better <strong>performance, SEO, and UX</strong>, I deliver end-to-end — including Shopify setup, theme work, and integrations across <strong>Wix, Squarespace</strong>, and other builders.
+          </p>
+          <a href="images/cv-dawood.pdf" class="btn btn-outline btn-about" download>
+            <span class="btn-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6 3h9l5 5v13H6V3zm9 2H8v14h10V9h-3a1 1 0 0 1-1-1V5z" />
+              </svg>
+            </span>
+            <span>Download CV</span>
+          </a>
+        </div>
+        <div class="about-col about-col-stats">
+          <div class="stat-card">
+            <span class="stat-value">5+</span>
+            <span class="stat-label">Years of Experience</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">180+</span>
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">2</span>
+            <span class="stat-label">Companies Experience</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-value">24/7</span>
+            <span class="stat-label">Support Mindset</span>
+          </div>
+        </div>
       </div>
     </section>
 
     <section id="skills" class="skills">
-      <div class="skills-header">
-        <p class="section-kicker">Technical Expertise</p>
-        <h2 class="skills-title">Skills</h2>
-      </div>
+      <h2 class="section-heading section-heading-display">Expertise</h2>
       <div class="skills-grid">
         <article class="skill-card">
           <div class="skill-icon">
             <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M8.5 5 3 11l5.5 6 1.5-1.4L6 11l3.9-4.6L8.5 5zm7 0L14 6.4 18 11l-4 4.6L15.5 17 21 11l-5.5-6z"/>
+              <path d="M8.5 5 3 11l5.5 6 1.5-1.4L6 11l3.9-4.6L8.5 5zm7 0L14 6.4 18 11l-4 4.6L15.5 17 21 11l-5.5-6z" />
             </svg>
           </div>
           <h3>Frontend Development</h3>
-          <p>HTML5, CSS3, CSS GRID, JavaScript, JQuery, React, Responsive UI, Animations</p>
+          <ul class="skill-list">
+            <li>HTML5, CSS3, Grid &amp; Flexbox</li>
+            <li>JavaScript, jQuery, React</li>
+            <li>Responsive &amp; mobile-first UI</li>
+            <li>Animations &amp; interactive polish</li>
+          </ul>
         </article>
 
         <article class="skill-card skill-card-accent">
           <div class="skill-icon">
             <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M4 4h16v5H4V4zm0 7h16v5H4v-5zm2-6v2h2V5H6zm0 7v2h2v-2H6z"/>
+              <path d="M4 4h16v5H4V4zm0 7h16v5H4v-5zm2-6v2h2V5H6zm0 7v2h2v-2H6z" />
             </svg>
           </div>
-          <h3>Backend Development</h3>
-          <p>PHP, MYSQL, SQL, REST APIs, MongoDB, Laravel Authentication</p>
+          <h3>Backend Engineering</h3>
+          <ul class="skill-list">
+            <li>PHP, MySQL, SQL</li>
+            <li>REST APIs &amp; integrations</li>
+            <li>Laravel authentication patterns</li>
+            <li>Secure, maintainable architecture</li>
+          </ul>
         </article>
 
         <article class="skill-card">
           <div class="skill-icon">
             <svg viewBox="0 0 24 24" aria-hidden="true">
-              <path d="M4 17.5 5.5 21 9 19.5 19 9.5 14.5 5 4.5 15zM15 4.5 17.5 2 22 6.5 19.5 9z"/>
+              <path d="M4 17.5 5.5 21 9 19.5 19 9.5 14.5 5 4.5 15zM15 4.5 17.5 2 22 6.5 19.5 9z" />
             </svg>
           </div>
-          <h3>CMS Developer & Tools</h3>
-          <p>WordPress, Wix, SquareSpace, Webflow, Shopify, Git & GitHub Statamic</p>
+          <h3>CMS &amp; eCommerce</h3>
+          <ul class="skill-list">
+            <li>WordPress, WooCommerce</li>
+            <li>Shopify setup &amp; customization</li>
+            <li>Wix, Squarespace, Webflow</li>
+            <li>Elementor, Divi, Gutenberg &amp; more</li>
+          </ul>
         </article>
       </div>
 
+      <div class="tech-strip" aria-label="Technologies">
+        <span class="tech-tag">Git</span>
+        <span class="tech-tag">PSD to HTML</span>
+        <span class="tech-tag">PHP</span>
+        <span class="tech-tag">WordPress</span>
+        <span class="tech-tag">WooCommerce</span>
+        <span class="tech-tag">Shopify</span>
+        <span class="tech-tag">Laravel</span>
+        <span class="tech-tag">MySQL</span>
+        <span class="tech-tag">REST</span>
+        <span class="tech-tag">GitHub</span>
+        <span class="tech-tag">Figma</span>
+      </div>
+
       <div class="skills-tools">
-        <h3 class="skills-tools-heading">Page Builders</h3>
-        <div class="skills-tools-row">
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <rect x="5" y="5" width="14" height="14" rx="2" />
-              </svg>
-            </span>
-            <span>Elementor Pro</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M5 5h14v4H5zM5 10h7v9H5zM13 10h6v9h-6z" />
-              </svg>
-            </span>
-            <span>Cornerstone</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M4 7h16v2H4zm3 4h10v2H7zm2 4h6v2H9z" />
-              </svg>
-            </span>
-            <span>WPBakery</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M5 5h14l-2 14H7z" />
-              </svg>
-            </span>
-            <span>Breakdance</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <circle cx="8" cy="9" r="3" />
-                <circle cx="16" cy="15" r="3" />
-                <path d="M10.5 10.5 13.5 13.5" />
-              </svg>
-            </span>
-            <span>Divi</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M4 6h16l-3 12H7z" />
-              </svg>
-            </span>
-            <span>Bricks</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M4 5h16v4H4zm0 5h10v9H4z" />
-              </svg>
-            </span>
-            <span>Avada</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M5 6h14v2H5zm0 5h10v2H5zm0 5h6v2H5z" />
-              </svg>
-            </span>
-            <span>Gutenberg</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M5 6h14v2H5zm0 5h9v2H5zm0 5h6v2H5z" />
-              </svg>
-            </span>
-            <span>More</span>
-          </div>
+        <h3 class="skills-tools-heading">Page builders</h3>
+        <div class="skills-tools-row skills-tools-row-compact">
+          <span class="tech-tag tech-tag-sm">Elementor Pro</span>
+          <span class="tech-tag tech-tag-sm">Cornerstone</span>
+          <span class="tech-tag tech-tag-sm">WPBakery</span>
+          <span class="tech-tag tech-tag-sm">Breakdance</span>
+          <span class="tech-tag tech-tag-sm">Divi</span>
+          <span class="tech-tag tech-tag-sm">Bricks</span>
+          <span class="tech-tag tech-tag-sm">Avada</span>
+          <span class="tech-tag tech-tag-sm">Gutenberg</span>
         </div>
-
-        <h3 class="skills-tools-heading skills-tools-heading-secondary">SEO Services</h3>
-        <div class="skills-tools-row">
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M4 7h16v2H4zm0 4h10v2H4zm0 4h7v2H4z" />
-              </svg>
-            </span>
-            <span>On‑Page SEO</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M5 5h14v4H5zm2 5h10v2H7zm2 4h6v2H9z" />
-              </svg>
-            </span>
-            <span>Off‑Page SEO</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <circle cx="8" cy="8" r="3" />
-                <path d="M5 19a7 7 0 0 1 14 0" />
-              </svg>
-            </span>
-            <span>Technical SEO</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M12 3 4 9v10h16V9z" />
-              </svg>
-            </span>
-            <span>Local SEO</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M4 5h16v2H4zm0 4h12v2H4zm0 4h8v2H4z" />
-              </svg>
-            </span>
-            <span>Site Audit</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <circle cx="10" cy="10" r="3" />
-                <path d="m14.5 14.5 3 3" />
-              </svg>
-            </span>
-            <span>Keyword Research</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M5 6h14v2H5zm0 5h11v2H5zm0 5h8v2H5z" />
-              </svg>
-            </span>
-            <span>Content SEO</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M4 7h9l-2 10H4zm9 0h7l-3 10h-7z" />
-              </svg>
-            </span>
-            <span>Speed Optimization</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M5 6h14v2H5zm0 5h9v2H5zm0 5h6v2H5z" />
-              </svg>
-            </span>
-            <span>More</span>
-          </div>
-        </div>
-
-        <h3 class="skills-tools-heading skills-tools-heading-secondary">Design & Tools</h3>
-        <div class="skills-tools-row">
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M5 5h14v14H5z" />
-              </svg>
-            </span>
-            <span>Figma</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M6 4h12v16H6z" />
-              </svg>
-            </span>
-            <span>Figma to HTML</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M4 6h16v2H4zm0 5h11v2H4zm0 5h8v2H4z" />
-              </svg>
-            </span>
-            <span>Git & Git Hub</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <circle cx="9" cy="9" r="3" />
-                <circle cx="15" cy="15" r="3" />
-              </svg>
-            </span>
-            <span>Figma to WordPress</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M4 6h16v2H4zm0 5h11v2H4zm0 5h8v2H4z" />
-              </svg>
-            </span>
-            <span>Pixel Perfect</span>
-          </div>
-          <div class="skill-chip">
-            <span class="chip-icon">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M5 5h14v4H5zm0 5h10v4H5z" />
-              </svg>
-            </span>
-            <span>PSD To HTML</span>
-          </div>
+        <h3 class="skills-tools-heading skills-tools-heading-secondary">SEO &amp; performance</h3>
+        <div class="skills-tools-row skills-tools-row-compact">
+          <span class="tech-tag tech-tag-sm">On-page SEO</span>
+          <span class="tech-tag tech-tag-sm">Technical SEO</span>
+          <span class="tech-tag tech-tag-sm">Speed optimization</span>
+          <span class="tech-tag tech-tag-sm">Site audits</span>
         </div>
       </div>
 
       <div class="skills-metrics">
         <div class="skills-metrics-column skills-metrics-column-center">
-          <h3 class="skills-metrics-title">Professional Skills</h3>
+          <h3 class="skills-metrics-title">Skill proficiency</h3>
           <div class="skill-circles">
             <div class="skill-circle">
-              <div class="circle-outer" data-percent="90">
-                <div class="circle-inner">90%</div>
+              <div class="circle-outer" data-percent="95" style="--percent: 0.95">
+                <div class="circle-inner">95%</div>
               </div>
-              <p>Creativity</p>
+              <p>Frontend</p>
             </div>
             <div class="skill-circle">
-              <div class="circle-outer" data-percent="65">
+              <div class="circle-outer" data-percent="85" style="--percent: 0.85">
                 <div class="circle-inner">85%</div>
               </div>
-              <p>Communication</p>
+              <p>Backend</p>
             </div>
             <div class="skill-circle">
-              <div class="circle-outer" data-percent="75">
-                <div class="circle-inner">90%</div>
+              <div class="circle-outer" data-percent="90" style="--percent: 0.9">
+                <div class="circle-inner">95%</div>
               </div>
-              <p>Problem Solving</p>
+              <p>WordPress</p>
             </div>
             <div class="skill-circle">
-              <div class="circle-outer" data-percent="85">
+              <div class="circle-outer" data-percent="100" style="--percent: 1">
                 <div class="circle-inner">100%</div>
               </div>
-              <p>Teamwork</p>
+              <p>Delivery</p>
             </div>
           </div>
         </div>
@@ -416,267 +296,260 @@
 
     <section id="projects" class="projects">
       <div class="projects-header">
-        <p class="section-kicker">Selected work</p>
-        <h2 class="projects-title"> 75+ Projects</h2>
+        <h2 class="projects-title">
+          Selected <span class="projects-title-accent">Work</span>
+        </h2>
+        <div class="project-filters" role="tablist" aria-label="Filter projects">
+          <button type="button" class="filter-btn is-active" data-filter="all">All</button>
+          <button type="button" class="filter-btn" data-filter="ecommerce">eCommerce</button>
+          <button type="button" class="filter-btn" data-filter="realestate">Booking Sites</button>
+          <button type="button" class="filter-btn" data-filter="saas">SaaS</button>
+          <button type="button" class="filter-btn" data-filter="more">Large Projects</button>
+        </div>
       </div>
+
+      <article class="project-featured project-card" data-category="saas">
+        <div class="project-featured-thumb">
+          <img src="images/trif.png" alt="Tirf Online preview" class="project-img" />
+        </div>
+        <div class="project-featured-body">
+          <h3>Tirf Online</h3>
+          <p class="project-subtitle">
+            A responsive service platform connecting customers to offerings — full frontend and backend work, smooth UX, and stronger engagement.
+          </p>
+          <a href="https://www.tirfonline.org/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
+        </div>
+      </article>
+
       <div class="project-grid">
-        <article class="project-card">
-          <div class="project-card-header">
-            <div>
-              <h3>Tirf Online</h3>
-              <p class="project-subtitle">
-                Developed a responsive online service platform connecting multiple customers to services. 
-                Handled both frontend and backend development, ensuring smooth user experience and improved client engagement.
-              </p>
-            </div>
-            <a href="https://www.tirfonline.org/" target="_blank">
-            <span class="project-arrow" aria-hidden="true">
-              <svg viewBox="0 0 24 24">
-                <path d="M8 5h11v11h-2V9.4L7.7 18 6 16.3 14.6 7H8z" />
-              </svg>
-            </span>
-            </a>
+        <article class="project-card project-card-compact" data-category="realestate">
+          <div class="project-thumb">
+            <img src="images/360.png" alt="360 Vacation Rentals" class="project-img" />
           </div>
-          <div class="project-thumb"><img
-            src="images/trif.png"
-            alt="Projetc trif"
-            class="profile-image"
-          /></div>
+          <div class="project-card-body">
+            <h3>360 Vacation Rentals</h3>
+            <p class="project-subtitle">Rental listings, search, and booking — built for travelers and hosts.</p>
+            <a href="https://www.360-vacationrentals.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
+          </div>
         </article>
 
-        <article class="project-card">
-          <div class="project-card-header">
-            <div>
-              <h3>360 Vacation Rentals</h3>
-              <p class="project-subtitle">
-                As a Full-Stack Developer, I developed a responsive vacation rental platform connecting travelers with property owners.
-                 I implemented listings, search filters, and booking features, resulting in an easy-to-use platform that improves user experience and property management.
-              </p>
-            </div>
-            <a href="https://www.360-vacationrentals.com/">
-            <span class="project-arrow" aria-hidden="true">
-              <svg viewBox="0 0 24 24">
-                <path d="M8 5h11v11h-2V9.4L7.7 18 6 16.3 14.6 7H8z" />
-              </svg>
-            </span>
-            </a>
+        <article class="project-card project-card-compact" data-category="saas">
+          <div class="project-thumb">
+            <img src="images/gemeniye.png" alt="Gemineye" class="project-img" />
           </div>
-          <div class="project-thumb"><img
-            src="images/360.png"
-            alt="Projetc trif"
-            class="profile-image"
-          /></div>
+          <div class="project-card-body">
+            <h3>Gemineye</h3>
+            <p class="project-subtitle">Data analytics &amp; lakehouse UX for financial institutions.</p>
+            <a href="https://www.gemineye.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
+          </div>
         </article>
 
-        <article class="project-card">
-          <div class="project-card-header">
-            <div>
-              <h3>Gemineye</h3>
-              <p class="project-subtitle">
-                I worked as the Full Stack Developer and delivered the project from start to finish building a responsive and intuitive web interface for Gemineye’s data‑analytics and “Data Lakehouse” solution for credit unions and banks. 
-                The platform provides scalable data warehousing + analytics, enabling financial institutions to integrate data, run dashboards and generate insights efficiently.
-              </p>
-            </div>
-            <a href="https://www.gemineye.com/">
-            <span class="project-arrow" aria-hidden="true">
-              <svg viewBox="0 0 24 24">
-                <path d="M8 5h11v11h-2V9.4L7.7 18 6 16.3 14.6 7H8z" />
-              </svg>
-            </span>
-            </a>
+        <article class="project-card project-card-compact" data-category="more">
+          <div class="project-thumb">
+            <img src="images/jovie.png" alt="Jovie childcare" class="project-img" />
           </div>
-          <div class="project-thumb"><img
-            src="images/gemeniye.png"
-            alt="Projetc trif"
-            class="profile-image"
-          /></div>
+          <div class="project-card-body">
+            <h3>Jovie</h3>
+            <p class="project-subtitle">Childcare marketplace — search, profiles, and flexible care requests.</p>
+            <a href="https://www.jovie.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
+          </div>
         </article>
 
-        <article class="project-card">
-          <div class="project-card-header">
-            <div>
-              <h3>Jovie — Childcare Platform</h3>
-              <p class="project-subtitle">
-                As a Front‑End Developer (with backend support), I helped build and optimize Jovie’s website — a platform that connects families with vetted nannies, babysitters, and childcare staff for homes, events, or temporary care. 
-                The goal was to make it easy for users to search by location or service type, browse caregiver profiles, and request childcare services flexibly.
-              </p>
-            </div>
-            <a href="https://www.jovie.com/">
-            <span class="project-arrow" aria-hidden="true">
-              <svg viewBox="0 0 24 24">
-                <path d="M8 5h11v11h-2V9.4L7.7 18 6 16.3 14.6 7H8z" />
-              </svg>
-            </span>
-            </a>
+        <article class="project-card project-card-compact" data-category="ecommerce">
+          <div class="project-thumb">
+            <img src="images/women.png" alt="Shopify WordPress integration" class="project-img" />
           </div>
-          <div class="project-thumb"><img
-            src="images/jovie.png"
-            alt="Projetc trif"
-            class="profile-image"
-          /></div>
+          <div class="project-card-body">
+            <h3>Shopify × WordPress</h3>
+            <p class="project-subtitle">Product sync and storefront integration with ShopWP.</p>
+            <a href="https://www.womensbeanproject.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
+          </div>
         </article>
 
-        <article class="project-card">
-          <div class="project-card-header">
-            <div>
-              <h3>Shopify to WordPress Product Integration</h3>
-              <p class="project-subtitle">
-                Integrated Shopify products into a WordPress website using ShopWP, enabling seamless syncing and display of all Shopify products within WordPress. The setup allows products to be managed from Shopify while being fully accessible and purchasable on the WordPress site, ensuring a smooth ecommerce experience.
-              </p>
-            </div>
-            <a href="https://www.womensbeanproject.com/">
-            <span class="project-arrow" aria-hidden="true">
-              <svg viewBox="0 0 24 24">
-                <path d="M8 5h11v11h-2V9.4L7.7 18 6 16.3 14.6 7H8z" />
-              </svg>
-            </span>
-            </a>
+        <article class="project-card project-card-compact" data-category="ecommerce">
+          <div class="project-thumb">
+            <img src="images/brads.png" alt="Plant-based snack brand" class="project-img" />
           </div>
-          <div class="project-thumb"><img
-            src="images/women.png"
-            alt="Projetc trif"
-            class="profile-image"
-          /></div>
+          <div class="project-card-body">
+            <h3>Brad’s Plant Based</h3>
+            <p class="project-subtitle">Brand-forward eCommerce highlighting organic, plant-based snacks.</p>
+            <span class="project-link project-link-muted">Case study — link TBD</span>
+          </div>
         </article>
+      </div>
 
-        <article class="project-card">
-          <div class="project-card-header">
-            <div>
-              <h3>E‑Commerce Website for Plant‑Based Snack Brand</h3>
-              <p class="project-subtitle">
-                Developed a responsive site highlighting Brad’s Plant Based organic snacks including Crunchy Kale, Veggie Flats, and Salad‑to‑Go emphasizing quality ingredients and plant‑based benefits.
-              </p>
-            </div>
-            <a href="">
-            <span class="project-arrow" aria-hidden="true">
-              <svg viewBox="0 0 24 24">
-                <path d="M8 5h11v11h-2V9.4L7.7 18 6 16.3 14.6 7H8z" />
-              </svg>
-            </span>
-            </a>
-          </div>
-          <div class="project-thumb"><img
-            src="images/brads.png"
-            alt="Projetc trif"
-            class="profile-image"
-          /></div>
-        </article>
+      <div class="projects-cta-wrap">
+        <a href="#projects" class="btn btn-solid btn-wide">Explore More Projects</a>
       </div>
     </section>
 
     <section id="experience" class="experience">
-      <div class="experience-header">
-        <p class="section-kicker">Experience</p>
-        <h2 class="experience-title">Where I have been & what I have done</h2>
-      </div>
-
+      <h2 class="section-heading section-heading-display">Career Journey</h2>
       <div class="timeline">
-        <div class="timeline-item glass">
-          <div class="timeline-meta">
-            <span class="timeline-role"> Junior Full Stack Developer</span>
-            <span class="timeline-company">Techsols International</span>
-            <span class="timeline-dates">2023 - 2025</span>
-          </div>
-          <p class="timeline-description">
-            <ul>
-           <li>Worked as a Key Frontend Developer, building and optimizing user interfaces.</li>
-           <li>Contributed to backend development as a supportive team member.</li>
-           <li>Successfully collaborated on multiple projects, ensuring timely delivery.</li>
-           <li>Recognized as Employee of the Month twice for outstanding performance.</li>
-          </ul>
-          <img src="images/employee-of-month.jpeg" alt="Project Image" style="width:550px; height:auto; margin-bottom:10px; border-radius:8px; margin-top: 15px;">
-          </p>
-        </div>
-
-        <div class="timeline-item glass">
-          <div class="timeline-meta">
-            <span class="timeline-role">Full Stack Developer</span>
-            <span class="timeline-company">SpeedWay IT Solutions</span>
-            <span class="timeline-dates">2025</span>
-          </div>
-          <p class="timeline-description">
-            <ul>
-              <li>Worked as a Full Stack Developer, handling both frontend and backend development.</li>
-              <li>Successfully deployed 20+ websites to new domains with smooth transitions.</li>
-              <li>Managed a team of 2 developers, ensuring effective collaboration and project delivery.</li>
+        <article class="timeline-item">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <h3 class="timeline-role">Junior Full Stack Developer</h3>
+              <div class="timeline-right">
+                <span class="timeline-company">Techsols International</span>
+                <span class="timeline-dates">2023 — 2025</span>
+              </div>
+            </div>
+            <ul class="timeline-list">
+              <li>Worked as a Key Frontend Developer, building and optimizing user interfaces.</li>
+              <li>Backend support across multiple shipped products.</li>
+              <li>Collaboration across teams; on-time delivery.</li>
+              <li>Recognized as Employee of the Month several times for outstanding performance.</li>
             </ul>
-          </p>
-        </div>
+            <img
+              src="images/employee-of-month.jpeg"
+              alt="Employee of the Month recognition"
+              class="timeline-image"
+              width="550"
+              height="310"
+              loading="lazy"
+            />
+          </div>
+        </article>
+
+        <article class="timeline-item">
+          <span class="timeline-dot" aria-hidden="true"></span>
+          <div class="timeline-content">
+            <div class="timeline-meta">
+              <h3 class="timeline-role">Full Stack Developer</h3>
+              <div class="timeline-right">
+                <span class="timeline-company">SpeedWay IT Solutions</span>
+                <span class="timeline-dates">2025</span>
+              </div>
+            </div>
+            <ul class="timeline-list">
+              <li>Worked as a Full Stack Developer handling both frontend and backend development.</li>
+              <li>Deployed 20+ sites to new domains with smooth cutovers.</li>
+              <li>Led a small dev team for delivery and quality.</li>
+            </ul>
+          </div>
+        </article>
       </div>
-      <!-- <a href="images/dawood-updated-cv.pdf" class="btn btn-primary btn-cv" target="_blank" rel="noopener">
-            Download CV
-          </a> -->
     </section>
 
     <section id="contact" class="contact">
       <div class="contact-inner">
         <div class="contact-info">
-          <h2 class="contact-title">Contact Me</h2>
-          <p class="contact-subtitle">Let’s build something amazing together.</p>
+          <h2 class="contact-headline">Let’s build something amazing.</h2>
+          <p class="contact-intro">Tell me about your product, timeline, and goals — I’ll respond with a clear plan.</p>
 
-          <div class="contact-info-group">
-            <h3>
-              <span class="contact-icon-circle">
+          <ul class="contact-details">
+            <li>
+              <span class="contact-icon-circle" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M4 4h16v10H6l-2 2z" /></svg>
+              </span>
+              <div>
+                <span class="contact-detail-label">Email</span>
+                <a href="mailto:dawoodchohaan46@gmail.com" class="contact-detail-value">dawoodchohaan46@gmail.com</a>
+              </div>
+            </li>
+            <li>
+              <span class="contact-icon-circle" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M6.6 3h10.8c1 0 1.8.8 1.8 1.8v14.4c0 1-.8 1.8-1.8 1.8H6.6c-1 0-1.8-.8-1.8-1.8V4.8C4.8 3.8 5.6 3 6.6 3zm5.4 16.5c.5 0 .9-.4.9-.9s-.4-.9-.9-.9-.9.4-.9.9.4.9.9.9z" /></svg>
+              </span>
+              <div>
+                <span class="contact-detail-label">Availability</span>
+                <span class="contact-detail-value">Open to freelance &amp; full-time roles</span>
+              </div>
+            </li>
+            <li>
+              <span class="contact-icon-circle" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z" /></svg>
+              </span>
+              <div>
+                <span class="contact-detail-label">Location</span>
+                <span class="contact-detail-value">Remote · Worldwide</span>
+              </div>
+            </li>
+          </ul>
+
+          <div class="contact-social">
+            <a href="https://www.linkedin.com/in/muhammad-dawood-afzaal-77610b331/" target="_blank" rel="noopener noreferrer" class="social-circle" aria-label="LinkedIn">
+              <span class="social-icon">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M4 4h16v10H6l-2 2z" />
+                  <path
+                    d="M5 4a2 2 0 1 1 0 4 2 2 0 0 1 0-4zm.6 5H3.4V20h2.2V9zM13 9.2c-2 0-3.3 1.1-3.3 3.1V20h2.2v-6.8c0-1 .6-1.7 1.7-1.7 1 0 1.6.6 1.6 1.7V20h2.2v-7.2C17.4 10.4 15.9 9.2 13 9.2z"
+                  />
                 </svg>
               </span>
-              Talk to me
-            </h3>
-            <ul>
-              <li>
-                <span class="label">Email</span>
-                <span class="value">dawoodchohaan46@gmail.com</span>
-              </li>
-            </ul>
+            </a>
+            <a href="https://github.com/DawoodChohan" target="_blank" rel="noopener noreferrer" class="social-circle" aria-label="GitHub">
+              <span class="social-icon">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <path
+                    d="M12 2C6.5 2 2 6.6 2 12.1c0 4.4 2.9 8.1 6.9 9.4.5.1.6-.2.6-.4v-1.6c-2.8.6-3.4-1.4-3.4-1.4-.4-1-1-1.3-1-1.3-.8-.5.1-.5.1-.5.9.1 1.3 1 1.3 1 .8 1.3 2.1.9 2.6.7.1-.6.3-.9.6-1.1-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.6 0 0 .8-.3 2.8 1a9.5 9.5 0 0 1 5.1 0c2-1.3 2.8-1 2.8-1 .5 1.3.2 2.3.1 2.6.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .3.2.6.8.6 1.6v2.3c0 .2.1.5.6.4a10.2 10.2 0 0 0 6.9-9.4C22 6.6 17.5 2 12 2z"
+                  />
+                </svg>
+              </span>
+            </a>
+            <a href="https://www.upwork.com/freelancers/~01db85038363b0db10?viewMode=1" target="_blank" rel="noopener noreferrer" class="social-circle" aria-label="Upwork">
+              <span class="social-icon upwork">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                  <text x="6.5" y="15" font-size="8.5" font-family="system-ui" font-weight="700" fill="currentColor">up</text>
+                </svg>
+              </span>
+            </a>
           </div>
         </div>
 
         <div class="contact-form-wrapper">
-          <h3 class="contact-form-title">
-            <span class="contact-icon-circle">
-              <svg viewBox="0 0 24 24" aria-hidden="true">
-                <path d="M3.4 20.6 20.2 12 3.4 3.4 3 11l9 1-9 1z" />
-              </svg>
-            </span>
-            Write me your project
-          </h3>
-          <form id="contactForm" class="contact-form glass">
+          <form id="contactForm" class="contact-form" novalidate>
             <div class="form-row">
               <div class="form-field">
                 <label for="name">Name</label>
-                <input id="name" name="name" type="text" placeholder="Your name" required />
+                <input id="name" name="name" type="text" placeholder="Your name" required autocomplete="name" />
               </div>
               <div class="form-field">
                 <label for="email">Email</label>
-                <input id="email" name="email" type="email" placeholder="your@email.com" required />
+                <input id="email" name="email" type="email" placeholder="you@email.com" required autocomplete="email" />
               </div>
             </div>
             <div class="form-field">
               <label for="subject">Subject</label>
-              <input id="subject" name="subject" type="text" placeholder="Project, opportunity, or question" required />
+              <input id="subject" name="subject" type="text" placeholder="Project or opportunity" required />
             </div>
             <div class="form-field">
               <label for="message">Message</label>
               <textarea id="message" name="message" rows="4" placeholder="Tell me about your project" required></textarea>
             </div>
-            <button type="submit" class=" btn btn-primary contact-submit btn btn-outline btn-about" id="submitBtn">
-                <span>Send Message</span>
-              </button>
-            <div id="formMessage" class="form-message" style="display: none;"></div>
+            <button type="submit" class="btn btn-solid contact-submit" id="submitBtn">
+              <span>Send Message</span>
+            </button>
+            <div id="formMessage" class="form-message" hidden></div>
           </form>
         </div>
       </div>
     </section>
-    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p class="footer-copy">© <span id="year"></span> Dawood Afzaal. All rights reserved.</p>
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a href="#home" class="footer-top" aria-label="Back to top">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 14l5-5 5 5z" /></svg>
+        </a>
+      </div>
+    </footer>
+
+    <button type="button" id="backToTop" class="back-to-top" aria-label="Back to top">
       <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M7 14l5-5 5 5z"/>
+        <path d="M7 14l5-5 5 5z" />
       </svg>
     </button>
 
     <script type="text/javascript" src="https://unpkg.com/@emailjs/browser@4/dist/email.min.js"></script>
-  <script src="script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
-
-
