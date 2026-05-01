@@ -737,6 +737,7 @@ a {
 }
 
 .filter-btn {
+  font-family: 'Orbitron';
   padding: 0.45rem 1rem;
   border-radius: 999px;
   font-size: 0.75rem;
@@ -842,7 +843,8 @@ a {
 }
 
 .project-subtitle {
-  font-size: 0.84rem;
+  font-family: cursive;
+  font-size: 16px;
   color: var(--text-muted);
   line-height: 1.65;
   flex: 1;
@@ -1400,5 +1402,116 @@ a.contact-detail-value:hover {
   .projects-header {
     flex-direction: column;
     align-items: flex-start;
+  }
+}
+
+/* ——— Scroll reveal & motion utilities ——— */
+.reveal {
+  --d: 0ms;
+  opacity: 0;
+  filter: blur(4px);
+  transition:
+    opacity 0.75s cubic-bezier(0.22, 1, 0.36, 1) var(--d),
+    transform 0.75s cubic-bezier(0.22, 1, 0.36, 1) var(--d),
+    filter 0.75s cubic-bezier(0.22, 1, 0.36, 1) var(--d);
+  will-change: opacity, transform, filter;
+}
+
+.reveal--up {
+  transform: translate3d(0, 28px, 0);
+}
+
+.reveal--down {
+  transform: translate3d(0, -22px, 0);
+}
+
+.reveal--left {
+  transform: translate3d(-28px, 0, 0);
+}
+
+.reveal--right {
+  transform: translate3d(28px, 0, 0);
+}
+
+.reveal--scale {
+  transform: scale(0.96);
+}
+
+.reveal.is-in {
+  opacity: 1;
+  filter: none;
+  transform: translate3d(0, 0, 0) scale(1);
+  will-change: auto;
+}
+
+/* ——— Typewriter ——— */
+.tw {
+  display: inline-block;
+}
+
+[data-type-nowrap] {
+  white-space: nowrap;
+}
+
+.tw-char {
+  display: inline-block;
+  opacity: 0;
+  transform: translate3d(0, 10px, 0);
+  filter: blur(2px);
+  transition:
+    opacity 0.38s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.38s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.38s cubic-bezier(0.22, 1, 0.36, 1);
+  transition-delay: calc(var(--i, 0) * 75ms);
+  will-change: opacity, transform, filter;
+}
+
+.tw.tw-in .tw-char {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  filter: none;
+  will-change: auto;
+}
+
+/* Optional stronger hover (use with existing card styles) */
+.hover-float {
+  transition: transform 0.22s ease-out, box-shadow 0.22s ease-out, border-color 0.22s ease-out;
+}
+
+.hover-float:hover {
+  transform: translateY(-5px);
+}
+
+[data-parallax] {
+  --rx: 0;
+  --ry: 0;
+  transform: translate3d(calc(var(--rx) * 1px), calc(var(--ry) * 1px), 0);
+  will-change: transform;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal.is-in {
+    opacity: 1 !important;
+    filter: none !important;
+    transform: none !important;
+    transition: none !important;
+    will-change: auto !important;
+  }
+
+  .hero-visual {
+    animation: none !important;
+  }
+
+  .tw,
+  .tw-char {
+    opacity: 1 !important;
+    transform: none !important;
+    filter: none !important;
+    transition: none !important;
+  }
+
+  [data-parallax] {
+    transform: none !important;
   }
 }

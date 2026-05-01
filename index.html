@@ -14,32 +14,41 @@
   </head>
   <body>
     <header class="top-nav">
-      <a href="#home" class="logo" aria-label="Home">
+      <a href="#home" class="logo" aria-label="Home" data-reveal="down">
         <span class="logo-mark" aria-hidden="true"></span>
         <span class="logo-text"><span class="logo-main">DAWOOD</span><span class="logo-accent"> AFZAAL</span></span>
       </a>
-      <nav class="nav-links" aria-label="Primary">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
+      <nav class="nav-links" aria-label="Primary" data-stagger>
+        <a href="#about" data-reveal="down">About</a>
+        <a href="#skills" data-reveal="down">Skills</a>
+        <a href="#projects" data-reveal="down">Projects</a>
+        <a href="#experience" data-reveal="down">Experience</a>
+        <a href="#contact" data-reveal="down">Contact</a>
       </nav>
-      <a href="#contact" class="btn btn-hire">Hire Me</a>
+      <a href="#contact" class="btn btn-hire" data-reveal="scale">Hire Me</a>
     </header>
 
     <main id="home" class="hero">
       <section class="hero-content">
-        <h1 class="hero-title">
-          <i>WooCommerce & eCommerce Expert</i>
-          <span class="hero-line">HELO IM <span class="hero-name">DAWOOD</span></span>
-          <span class="hero-line hero-line-role">FULL STACK <br><em>Wordpress DEVELOPER</em></<span>
+        <h1 class="hero-title" data-stagger>
+          <i data-reveal="scale">WooCommerce & eCommerce Expert</i>
+          <span class="hero-line">
+            <span data-type-group="hero-title" data-type-order="1" data-typewriter="HELO IM " data-type-nowrap>HELO IM </span
+            ><span class="hero-name" data-type-group="hero-title" data-type-order="2" data-typewriter="DAWOOD" data-type-nowrap>DAWOOD</span>
+          </span>
+          <span class="hero-line hero-line-role">
+            <span data-type-group="hero-role" data-type-order="1" data-typewriter="FULL STACK" data-type-nowrap>FULL STACK</span>
+            <br />
+            <em data-type-group="hero-role" data-type-order="2" data-typewriter="WORDPRESS" data-type-nowrap>WORDPRESS</em>
+            <br />
+            <em data-type-group="hero-role" data-type-order="3" data-typewriter="DEVELOPER" data-type-nowrap>DEVELOPER</em>
+          </span>
         </h1>
-        <p class="hero-text">
+        <p class="hero-text" data-reveal="up">
           Looking for one expert to design, develop, and optimize your WordPress website or WooCommerce store?
         </p>
-        <div class="hero-actions">
-          <a href="#projects" class="btn btn-solid">
+        <div class="hero-actions" data-stagger>
+          <a href="#projects" class="btn btn-solid" data-reveal="scale">
             <span class="btn-icon">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path
@@ -50,7 +59,7 @@
             </span>
             <span>View Portfolio</span>
           </a>
-          <a href="#contact" class="btn btn-outline">
+          <a href="#contact" class="btn btn-outline" data-reveal="scale">
             <span class="btn-icon">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M3.4 20.6 20.2 12 3.4 3.4 3 11l9 1-9 1z" />
@@ -59,13 +68,14 @@
             <span>Contact Me</span>
           </a>
         </div>
-        <div class="social-links">
+        <div class="social-links" data-stagger>
           <a
             href="https://www.linkedin.com/in/muhammad-dawood-afzaal-77610b331/"
             target="_blank"
             rel="noopener noreferrer"
             class="social-circle"
             aria-label="LinkedIn"
+            data-reveal="up"
           >
             <span class="social-icon">
               <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -81,6 +91,7 @@
             rel="noopener noreferrer"
             class="social-circle"
             aria-label="GitHub"
+            data-reveal="up"
           >
             <span class="social-icon">
               <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -96,6 +107,7 @@
             rel="noopener noreferrer"
             class="social-circle"
             aria-label="Upwork"
+            data-reveal="up"
           >
             <span class="social-icon upwork">
               <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -117,21 +129,21 @@
 
       <section class="hero-visual" aria-hidden="true">
         <div class="hero-orbit">
-          <span class="float-tag float-tag-1">
+          <span class="float-tag float-tag-1" data-parallax="18">
             <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M12 2l2.4 7.4h7.6l-6 4.6 2.3 7-6.3-4.6-6.3 4.6 2.3-7-6-4.6h7.6z"/></svg>
             Full Stack
           </span>
-          <span class="float-tag float-tag-2">
+          <span class="float-tag float-tag-2" data-parallax="12">
             <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M4 4h16v5H4V4zm0 7h16v5H4v-5zm2-6v2h2V5H6zm0 7v2h2v-2H6z"/></svg>
             WordPress
           </span>
-          <span class="float-tag float-tag-3">
+          <span class="float-tag float-tag-3" data-parallax="22">
             <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="currentColor" d="M8.5 5 3 11l5.5 6 1.5-1.4L6 11l3.9-4.6L8.5 5zm7 0L14 6.4 18 11l-4 4.6L15.5 17 21 11l-5.5-6z"/></svg>
             WooCommerce & eCommerce Expert
           </span>
         </div>
-        <div class="neon-shape"></div>
-        <div class="profile-wrapper">
+        <div class="neon-shape" data-parallax="8"></div>
+        <div class="profile-wrapper" data-parallax="10">
           <img src="images/dawood.jpeg" alt="Dawood Afzaal" class="profile-image" width="260" height="260" />
         </div>
       </section>
@@ -139,15 +151,15 @@
 
     <section id="about" class="about">
       <h2 class="section-heading section-heading-center">
-        <span class="section-heading-text">About Me</span>
+        <span class="section-heading-text" data-reveal="scale">About Me</span>
       </h2>
       <div class="about-panel">
         <div class="about-col about-col-main">
-          <p class="about-lead">Half a decade of digital craftsmanship.</p>
-          <p class="about-text">
+          <p class="about-lead" data-reveal="left">Half a decade of digital craftsmanship.</p>
+          <p class="about-text" data-reveal="left">
             I help businesses build and optimize <strong>WordPress sites, landing pages, and WooCommerce stores</strong> that load fast, scale cleanly, and convert. Whether you need a new build or better <strong>performance, SEO, and UX</strong>, I deliver end-to-end — including Shopify setup, theme work, and integrations across <strong>Wix, Squarespace</strong>, and other builders.
           </p>
-          <a href="images/cv-dawood.pdf" class="btn btn-outline btn-about" download>
+          <a href="images/cv-dawood.pdf" class="btn btn-outline btn-about" download data-reveal="scale">
             <span class="btn-icon">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M6 3h9l5 5v13H6V3zm9 2H8v14h10V9h-3a1 1 0 0 1-1-1V5z" />
@@ -156,20 +168,20 @@
             <span>Download CV</span>
           </a>
         </div>
-        <div class="about-col about-col-stats">
-          <div class="stat-card">
+        <div class="about-col about-col-stats" data-stagger>
+          <div class="stat-card" data-reveal="up">
             <span class="stat-value">5+</span>
             <span class="stat-label">Years of Experience</span>
           </div>
-          <div class="stat-card">
+          <div class="stat-card" data-reveal="up">
             <span class="stat-value">180+</span>
             <span class="stat-label">Projects Completed</span>
           </div>
-          <div class="stat-card">
+          <div class="stat-card" data-reveal="up">
             <span class="stat-value">2</span>
             <span class="stat-label">Companies Experience</span>
           </div>
-          <div class="stat-card">
+          <div class="stat-card" data-reveal="up">
             <span class="stat-value">24/7</span>
             <span class="stat-label">Support Mindset</span>
           </div>
@@ -178,9 +190,9 @@
     </section>
 
     <section id="skills" class="skills">
-      <h2 class="section-heading section-heading-display">Expertise</h2>
-      <div class="skills-grid">
-        <article class="skill-card">
+      <h2 class="section-heading section-heading-display" data-reveal="scale">Expertise</h2>
+      <div class="skills-grid" data-stagger>
+        <article class="skill-card" data-reveal="up">
           <div class="skill-icon">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M8.5 5 3 11l5.5 6 1.5-1.4L6 11l3.9-4.6L8.5 5zm7 0L14 6.4 18 11l-4 4.6L15.5 17 21 11l-5.5-6z" />
@@ -195,7 +207,7 @@
           </ul>
         </article>
 
-        <article class="skill-card skill-card-accent">
+        <article class="skill-card skill-card-accent" data-reveal="up">
           <div class="skill-icon">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M4 4h16v5H4V4zm0 7h16v5H4v-5zm2-6v2h2V5H6zm0 7v2h2v-2H6z" />
@@ -210,7 +222,7 @@
           </ul>
         </article>
 
-        <article class="skill-card">
+        <article class="skill-card" data-reveal="up">
           <div class="skill-icon">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M4 17.5 5.5 21 9 19.5 19 9.5 14.5 5 4.5 15zM15 4.5 17.5 2 22 6.5 19.5 9z" />
@@ -226,64 +238,64 @@
         </article>
       </div>
 
-      <div class="tech-strip" aria-label="Technologies">
-        <span class="tech-tag">Git</span>
-        <span class="tech-tag">PSD to HTML</span>
-        <span class="tech-tag">PHP</span>
-        <span class="tech-tag">WordPress</span>
-        <span class="tech-tag">WooCommerce</span>
-        <span class="tech-tag">Shopify</span>
-        <span class="tech-tag">Laravel</span>
-        <span class="tech-tag">MySQL</span>
-        <span class="tech-tag">REST</span>
-        <span class="tech-tag">GitHub</span>
-        <span class="tech-tag">Figma</span>
+      <div class="tech-strip" aria-label="Technologies" data-stagger>
+        <span class="tech-tag" data-reveal="scale">Git</span>
+        <span class="tech-tag" data-reveal="scale">PSD to HTML</span>
+        <span class="tech-tag" data-reveal="scale">PHP</span>
+        <span class="tech-tag" data-reveal="scale">WordPress</span>
+        <span class="tech-tag" data-reveal="scale">WooCommerce</span>
+        <span class="tech-tag" data-reveal="scale">Shopify</span>
+        <span class="tech-tag" data-reveal="scale">Laravel</span>
+        <span class="tech-tag" data-reveal="scale">MySQL</span>
+        <span class="tech-tag" data-reveal="scale">REST</span>
+        <span class="tech-tag" data-reveal="scale">GitHub</span>
+        <span class="tech-tag" data-reveal="scale">Figma</span>
       </div>
 
       <div class="skills-tools">
-        <h3 class="skills-tools-heading">Page builders</h3>
-        <div class="skills-tools-row skills-tools-row-compact">
-          <span class="tech-tag tech-tag-sm">Elementor Pro</span>
-          <span class="tech-tag tech-tag-sm">Cornerstone</span>
-          <span class="tech-tag tech-tag-sm">WPBakery</span>
-          <span class="tech-tag tech-tag-sm">Breakdance</span>
-          <span class="tech-tag tech-tag-sm">Divi</span>
-          <span class="tech-tag tech-tag-sm">Bricks</span>
-          <span class="tech-tag tech-tag-sm">Avada</span>
-          <span class="tech-tag tech-tag-sm">Gutenberg</span>
+        <h3 class="skills-tools-heading" data-reveal="up">Page builders</h3>
+        <div class="skills-tools-row skills-tools-row-compact" data-stagger>
+          <span class="tech-tag tech-tag-sm" data-reveal="up">Elementor Pro</span>
+          <span class="tech-tag tech-tag-sm" data-reveal="up">Cornerstone</span>
+          <span class="tech-tag tech-tag-sm" data-reveal="up">WPBakery</span>
+          <span class="tech-tag tech-tag-sm" data-reveal="up">Breakdance</span>
+          <span class="tech-tag tech-tag-sm" data-reveal="up">Divi</span>
+          <span class="tech-tag tech-tag-sm" data-reveal="up">Bricks</span>
+          <span class="tech-tag tech-tag-sm" data-reveal="up">Avada</span>
+          <span class="tech-tag tech-tag-sm" data-reveal="up">Gutenberg</span>
         </div>
-        <h3 class="skills-tools-heading skills-tools-heading-secondary">SEO &amp; performance</h3>
-        <div class="skills-tools-row skills-tools-row-compact">
-          <span class="tech-tag tech-tag-sm">On-page SEO</span>
-          <span class="tech-tag tech-tag-sm">Technical SEO</span>
-          <span class="tech-tag tech-tag-sm">Speed optimization</span>
-          <span class="tech-tag tech-tag-sm">Site audits</span>
+        <h3 class="skills-tools-heading skills-tools-heading-secondary" data-reveal="up">SEO &amp; performance</h3>
+        <div class="skills-tools-row skills-tools-row-compact" data-stagger>
+          <span class="tech-tag tech-tag-sm" data-reveal="up">On-page SEO</span>
+          <span class="tech-tag tech-tag-sm" data-reveal="up">Technical SEO</span>
+          <span class="tech-tag tech-tag-sm" data-reveal="up">Speed optimization</span>
+          <span class="tech-tag tech-tag-sm" data-reveal="up">Site audits</span>
         </div>
       </div>
 
       <div class="skills-metrics">
         <div class="skills-metrics-column skills-metrics-column-center">
-          <h3 class="skills-metrics-title">Skill proficiency</h3>
-          <div class="skill-circles">
-            <div class="skill-circle">
+          <h3 class="skills-metrics-title" data-reveal="scale">Skill proficiency</h3>
+          <div class="skill-circles" data-stagger>
+            <div class="skill-circle" data-reveal="up">
               <div class="circle-outer" data-percent="95" style="--percent: 0.95">
                 <div class="circle-inner">95%</div>
               </div>
               <p>Frontend</p>
             </div>
-            <div class="skill-circle">
+            <div class="skill-circle" data-reveal="up">
               <div class="circle-outer" data-percent="85" style="--percent: 0.85">
                 <div class="circle-inner">85%</div>
               </div>
               <p>Backend</p>
             </div>
-            <div class="skill-circle">
+            <div class="skill-circle" data-reveal="up">
               <div class="circle-outer" data-percent="90" style="--percent: 0.9">
                 <div class="circle-inner">95%</div>
               </div>
               <p>WordPress</p>
             </div>
-            <div class="skill-circle">
+            <div class="skill-circle" data-reveal="up">
               <div class="circle-outer" data-percent="100" style="--percent: 1">
                 <div class="circle-inner">100%</div>
               </div>
@@ -296,51 +308,52 @@
 
     <section id="projects" class="projects">
       <div class="projects-header">
-        <h2 class="projects-title">
+        <h2 class="projects-title" data-reveal="left">
           Selected <span class="projects-title-accent">Work</span>
         </h2>
-        <div class="project-filters" role="tablist" aria-label="Filter projects">
-          <button type="button" class="filter-btn is-active" data-filter="all">All</button>
-          <button type="button" class="filter-btn" data-filter="ecommerce">eCommerce</button>
-          <button type="button" class="filter-btn" data-filter="realestate">Booking Sites</button>
-          <button type="button" class="filter-btn" data-filter="saas">Wordpress</button>
-          <button type="button" class="filter-btn" data-filter="more">Full Stack</button>
+        <div class="project-filters" role="tablist" aria-label="Filter projects" data-stagger>
+          <button type="button" class="filter-btn is-active" data-filter="all" data-reveal="scale">All</button>
+          <button type="button" class="filter-btn" data-filter="ecommerce" data-reveal="scale">eCommerce</button>
+          <button type="button" class="filter-btn" data-filter="realestate" data-reveal="scale">Booking Sites</button>
+          <button type="button" class="filter-btn" data-filter="saas" data-reveal="scale">Wordpress</button>
+          <button type="button" class="filter-btn" data-filter="squarespace" data-reveal="scale">Squarespace</button>
+          <button type="button" class="filter-btn" data-filter="more" data-reveal="scale">Full Stack</button>
         </div>
       </div>
 
-      <article class="project-featured project-card" data-category="saas">
+      <article class="project-featured project-card" data-category="saas" data-reveal="up">
         <div class="project-featured-thumb">
           <img src="images/trif.png" alt="Tirf Online preview" class="project-img" />
         </div>
         <div class="project-featured-body">
-          <h3>Tirf Online</h3>
+          <h3>TIRF Online | Full Website Development from Scratch to Handoff</h3>
           <p class="project-subtitle">
-            A responsive service platform connecting customers to offerings — full frontend and backend work, smooth UX, and stronger engagement.
+            Developed the full website for TIRF (The International Research Foundation for English Language Education) from initial setup to final handoff. The project included complete website development, structure planning, and implementation of multiple pages while ensuring consistency with brand guidelines.
           </p>
           <a href="https://www.tirfonline.org/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
         </div>
       </article>
 
-      <div class="project-grid">
-        <article class="project-card project-card-compact" data-category="realestate">
+      <div class="project-grid" data-stagger>
+        <article class="project-card project-card-compact" data-category="realestate" data-reveal="up">
           <div class="project-thumb">
             <img src="images/360.png" alt="360 Vacation Rentals" class="project-img" />
           </div>
           <div class="project-card-body">
-            <h3>360 Vacation Rentals</h3>
-            <p class="project-subtitle">Rental listings, search, and booking — built for travelers and hosts.</p>
+            <h3>360 Vacation Rentals | Property Listing Integration, API Development & Dynamic Calculations</h3>
+            <p class="project-subtitle">Worked on the 360 Vacation Rentals platform, integrating property listings through APIs and handling dynamic data such as images, reviews, and property details using Hostaway API. Used Postman for API testing and debugging to ensure smooth data flow and accurate responses. Additionally implemented custom calculation logic for property pricing and related features to improve booking functionality and user experience.</p>
             <a href="https://www.360-vacationrentals.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
           </div>
         </article>
 
-        <article class="project-card project-card-compact" data-category="realestate">
+        <article class="project-card project-card-compact" data-category="realestate" data-reveal="up">
           <div class="project-thumb">
             <img src="images/villa.png" alt="360 Vacation Rentals" class="project-img" />
           </div>
           <div class="project-card-body">
-            <h3>Villa Rental Website with Booking Integration</h3>
-            <p class="project-subtitle">Designed and developed a full WordPress website for Royal Villa, a property based in Jamaica.</p>
-            <span class="project-link project-link-muted">Case study — link TBD</span>
+            <h3>Royal View Jamaica | One-Page Villa Rental Website Design & Development</h3>
+            <p class="project-subtitle">Designed and developed a simple one-page website for Royal View Jamaica, a villa rental business. The project focused on creating a clean, minimal, and user-friendly layout aligned with the client’s brand requirements. Delivered a lightweight website suitable for showcasing a single villa rental with clear structure and easy navigation. Handled the entire process from initial design to final handoff, with preparation for future booking integration.</p>
+            <a href="https://royal-view-jamaica.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
           </div>
         </article>
 
@@ -349,19 +362,19 @@
             <img src="images/gemeniye.png" alt="Gemineye" class="project-img" />
           </div>
           <div class="project-card-body">
-            <h3>Gemineye</h3>
-            <p class="project-subtitle">Data analytics &amp; lakehouse UX for financial institutions.</p>
+            <h3>Gemineye | Full Website Development with Dynamic Data, Queries & Advanced Filtering</h3>
+            <p class="project-subtitle">Developed the complete website for Gemineye from start to finish based on the provided design. Handled full implementation including front-end development, dynamic data integration, and advanced query handling. Built custom post queries with dynamic filtering to improve data retrieval and user experience. Ensured smooth functionality across all sections and delivered a fully responsive, structured, and scalable website aligned with the client’s requirements.</p>
             <a href="https://www.gemineye.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
           </div>
         </article>
 
-        <article class="project-card project-card-compact" data-category="saas">
+        <article class="project-card project-card-compact" data-category="saas" data-reveal="up">
           <div class="project-thumb">
             <img src="images/search.png" alt="search" class="project-img" />
           </div>
           <div class="project-card-body">
-            <h3>WordPress Website Redesign & Rebuild</h3>
-            <p class="project-subtitle">Redesigned and rebuilt the full website for Search Recovery.</p>
+            <h3>Search Recovery | Website Redesign, UI/UX Fixes & Layout Optimization</h3>
+            <p class="project-subtitle">Redesigned and rebuilt the Search Recovery website by fixing a cluttered and inconsistent layout with spacing and alignment issues. Transformed the broken structure into a clean, fully functional, and responsive website. Improved overall UI/UX by standardizing design elements, correcting visual hierarchy, and ensuring consistency across all sections. Delivered a refined and stable website aligned with modern design standards and usability best practices.</p>
             <a href="https://search-recovery.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
           </div>
         </article>
@@ -371,44 +384,67 @@
             <img src="images/jovie.png" alt="Jovie childcare" class="project-img" />
           </div>
           <div class="project-card-body">
-            <h3>Jovie</h3>
-            <p class="project-subtitle">Childcare marketplace — search, profiles, and flexible care requests.</p>
+            <h3>Jovie | Frontend Development & Statamic CMS Integration for Large-Scale Website</h3>
+            <p class="project-subtitle">Worked as part of a development team on the Jovie website, contributing to a large-scale project with a focus on frontend development and Statamic CMS integration. Handled dynamic content rendering through Statamic, including fetching and displaying structured content across multiple pages. Worked with Git and GitHub branching workflows to ensure smooth collaboration without code conflicts. Developed and maintained key components such as listings, forms, blog pages (listing and single templates), testimonials, and job application forms, ensuring consistency, responsiveness, and functionality across the platform.</p>
             <a href="https://www.jovie.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
           </div>
         </article>
 
-        <article class="project-card project-card-compact" data-category="ecommerce">
+        <article class="project-card project-card-compact" data-category="ecommerce saas more" data-reveal="up">
           <div class="project-thumb">
             <img src="images/women.png" alt="Shopify WordPress integration" class="project-img" />
           </div>
           <div class="project-card-body">
-            <h3>Shopify × WordPress</h3>
-            <p class="project-subtitle">Product sync and storefront integration with ShopWP.</p>
+            <h3>Women’s Bean Project | Shopify + WordPress WooCommerce Integration & Full Site Development</h3>
+            <p class="project-subtitle">Worked on the Women’s Bean Project website, which consists of a hybrid setup combining Shopify and WordPress WooCommerce. Managed end-to-end development across different parts of the system, including Shopify product integration into WordPress using ShopWP. Focused on building seamless product syncing, improving checkout and order user flows, and enhancing overall purchasing experience. Additionally developed new pages and features while ensuring consistency, stability, and smooth interaction between Shopify and WooCommerce systems.</p>
             <a href="https://www.womensbeanproject.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
           </div>
         </article>
 
-        <article class="project-card project-card-compact" data-category="ecommerce">
+        <article class="project-card project-card-compact" data-category="ecommerce" data-reveal="up">
           <div class="project-thumb">
             <img src="images/brads.png" alt="Plant-based snack brand" class="project-img" />
           </div>
           <div class="project-card-body">
-            <h3>Brad’s Plant Based</h3>
-            <p class="project-subtitle">Brand-forward eCommerce highlighting organic, plant-based snacks.</p>
+            <h3>Brad’s Plant Based | Website Maintenance, Bug Fixing & Performance Debugging</h3>
+            <p class="project-subtitle">Provided ongoing maintenance and support for the Brad’s Plant Based website, with a focus on debugging and resolving critical UI issues. Investigated and fixed a persistent CSS rendering problem that was affecting the site’s layout consistency. Identified the root cause and implemented a stable solution to ensure the issue did not reoccur. Also supported minor feature updates and ensured overall site stability, performance, and consistent front-end behavior.</p>
             <a href="https://www.bradsplantbased.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
           </div>
         </article>
+
+        <article class="project-card project-card-compact" data-category="squarespace" data-reveal="up">
+          <div class="project-thumb">
+            <img src="images/assest-home.png" alt="Plant-based snack brand" class="project-img" />
+          </div>
+          <div class="project-card-body">
+            <h3>Asset Fitness | Website Updated with New Pages, Improved Structure & Brand Consistency</h3>
+            <p class="project-subtitle">Worked on the Asset Fitness website by developing 3 new pages (Home, About Us, and Classes), refining the header and footer, and improving key UI sections. Ensured all updates aligned with brand guidelines to deliver a consistent design system, better structure, and improved user experience across the site.</p>
+            <a href="https://assetfitness.co.uk/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
+          </div>
+        </article>
+
+        <article class="project-card project-card-compact" data-category="ecommerce saas" data-reveal="up">
+          <div class="project-thumb">
+            <img src="images/allwell.png" alt="Plant-based snack brand" class="project-img" />
+          </div>
+          <div class="project-card-body">
+            <h3>All Well Rents | Full Website Development, Product Import & Custom Query Functionality</h3>
+            <p class="project-subtitle">Developed the All Well Rents website from scratch to final handover, working independently as the sole developer on the project. Delivered all required features end-to-end, including custom functionality and full site setup. Managed the import of thousands of products using WP All Import Pro, ensuring accurate data mapping and structured content organization. Implemented custom WordPress queries to achieve advanced filtering and dynamic functionality across the platform. Focused on performance, scalability, and delivering a fully functional, production-ready rental website.</p>
+            <a href="https://allwellrents.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
+          </div>
+        </article>
+
       </div>
 
       <div class="projects-cta-wrap">
-        <a href="#projects" class="btn btn-solid btn-wide">Explore More Projects</a>
+        <a href="#projects" class="btn btn-solid btn-wide" data-reveal="scale">Explore More Projects</a>
       </div>
     </section>
 
     <section id="experience" class="experience">
-      <h2 class="section-heading section-heading-display">Career Journey</h2>
+      <h2 class="section-heading section-heading-display" data-reveal="scale">Career Journey</h2>
       <div class="timeline">
-        <article class="timeline-item">
+        <article class="timeline-item" data-reveal="left">
           <span class="timeline-dot" aria-hidden="true"></span>
           <div class="timeline-content">
             <div class="timeline-meta">
@@ -435,7 +471,7 @@
           </div>
         </article>
 
-        <article class="timeline-item">
+        <article class="timeline-item" data-reveal="right">
           <span class="timeline-dot" aria-hidden="true"></span>
           <div class="timeline-content">
             <div class="timeline-meta">
@@ -458,11 +494,11 @@
     <section id="contact" class="contact">
       <div class="contact-inner">
         <div class="contact-info">
-          <h2 class="contact-headline">Let’s build something amazing.</h2>
-          <p class="contact-intro">Tell me about your product, timeline, and goals — I’ll respond with a clear plan.</p>
+          <h2 class="contact-headline" data-reveal="left">Let’s build something amazing.</h2>
+          <p class="contact-intro" data-reveal="left">Tell me about your product, timeline, and goals — I’ll respond with a clear plan.</p>
 
-          <ul class="contact-details">
-            <li>
+          <ul class="contact-details" data-stagger>
+            <li data-reveal="up">
               <span class="contact-icon-circle" aria-hidden="true">
                 <svg viewBox="0 0 24 24"><path d="M4 4h16v10H6l-2 2z" /></svg>
               </span>
@@ -471,7 +507,7 @@
                 <a href="mailto:dawoodchohaan46@gmail.com" class="contact-detail-value">dawoodchohaan46@gmail.com</a>
               </div>
             </li>
-            <li>
+            <li data-reveal="up">
               <span class="contact-icon-circle" aria-hidden="true">
                 <svg viewBox="0 0 24 24"><path d="M6.6 3h10.8c1 0 1.8.8 1.8 1.8v14.4c0 1-.8 1.8-1.8 1.8H6.6c-1 0-1.8-.8-1.8-1.8V4.8C4.8 3.8 5.6 3 6.6 3zm5.4 16.5c.5 0 .9-.4.9-.9s-.4-.9-.9-.9-.9.4-.9.9.4.9.9.9z" /></svg>
               </span>
@@ -480,7 +516,7 @@
                 <span class="contact-detail-value">Open to freelance &amp; full-time roles</span>
               </div>
             </li>
-            <li>
+            <li data-reveal="up">
               <span class="contact-icon-circle" aria-hidden="true">
                 <svg viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6a2.5 2.5 0 0 1 0 5.5z" /></svg>
               </span>
@@ -491,8 +527,8 @@
             </li>
           </ul>
 
-          <div class="contact-social">
-            <a href="https://www.linkedin.com/in/muhammad-dawood-afzaal-77610b331/" target="_blank" rel="noopener noreferrer" class="social-circle" aria-label="LinkedIn">
+          <div class="contact-social" data-stagger>
+            <a href="https://www.linkedin.com/in/muhammad-dawood-afzaal-77610b331/" target="_blank" rel="noopener noreferrer" class="social-circle" aria-label="LinkedIn" data-reveal="up">
               <span class="social-icon">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
                   <path
@@ -510,7 +546,7 @@
                 </svg>
               </span>
             </a>
-            <a href="https://www.upwork.com/freelancers/~01db85038363b0db10?viewMode=1" target="_blank" rel="noopener noreferrer" class="social-circle" aria-label="Upwork">
+            <a href="https://www.upwork.com/freelancers/~01db85038363b0db10?viewMode=1" target="_blank" rel="noopener noreferrer" class="social-circle" aria-label="Upwork" data-reveal="up">
               <span class="social-icon upwork">
                 <svg viewBox="0 0 24 24" aria-hidden="true">
                   <text x="6.5" y="15" font-size="8.5" font-family="system-ui" font-weight="700" fill="currentColor">up</text>
@@ -521,26 +557,26 @@
         </div>
 
         <div class="contact-form-wrapper">
-          <form id="contactForm" class="contact-form" novalidate>
+          <form id="contactForm" class="contact-form" novalidate data-stagger>
             <div class="form-row">
-              <div class="form-field">
+              <div class="form-field" data-reveal="up">
                 <label for="name">Name</label>
                 <input id="name" name="name" type="text" placeholder="Your name" required autocomplete="name" />
               </div>
-              <div class="form-field">
+              <div class="form-field" data-reveal="up">
                 <label for="email">Email</label>
                 <input id="email" name="email" type="email" placeholder="you@email.com" required autocomplete="email" />
               </div>
             </div>
-            <div class="form-field">
+            <div class="form-field" data-reveal="up">
               <label for="subject">Subject</label>
               <input id="subject" name="subject" type="text" placeholder="Project or opportunity" required />
             </div>
-            <div class="form-field">
+            <div class="form-field" data-reveal="up">
               <label for="message">Message</label>
               <textarea id="message" name="message" rows="4" placeholder="Tell me about your project" required></textarea>
             </div>
-            <button type="submit" class="btn btn-solid contact-submit" id="submitBtn">
+            <button type="submit" class="btn btn-solid contact-submit" id="submitBtn" data-reveal="scale">
               <span>Send Message</span>
             </button>
             <div id="formMessage" class="form-message" hidden></div>
@@ -550,22 +586,22 @@
     </section>
 
     <footer class="site-footer">
-      <div class="footer-inner">
-        <p class="footer-copy">© <span id="year"></span> Dawood Afzaal. All rights reserved.</p>
-        <nav class="footer-nav" aria-label="Footer">
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#experience">Experience</a>
-          <a href="#contact">Contact</a>
+      <div class="footer-inner" data-stagger>
+        <p class="footer-copy" data-reveal="up">© <span id="year"></span> Dawood Afzaal. All rights reserved.</p>
+        <nav class="footer-nav" aria-label="Footer" data-stagger>
+          <a href="#about" data-reveal="scale">About</a>
+          <a href="#skills" data-reveal="scale">Skills</a>
+          <a href="#projects" data-reveal="scale">Projects</a>
+          <a href="#experience" data-reveal="scale">Experience</a>
+          <a href="#contact" data-reveal="scale">Contact</a>
         </nav>
-        <a href="#home" class="footer-top" aria-label="Back to top">
+        <a href="#home" class="footer-top" aria-label="Back to top" data-reveal="up">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 14l5-5 5 5z" /></svg>
         </a>
       </div>
     </footer>
 
-    <button type="button" id="backToTop" class="back-to-top" aria-label="Back to top">
+    <button type="button" id="backToTop" class="back-to-top" aria-label="Back to top" data-reveal="scale">
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <path d="M7 14l5-5 5 5z" />
       </svg>
