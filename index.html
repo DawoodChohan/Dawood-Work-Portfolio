@@ -155,10 +155,13 @@
       </h2>
       <div class="about-panel">
         <div class="about-col about-col-main">
-          <p class="about-lead" data-reveal="left">Half a decade of digital craftsmanship.</p>
+          <p class="about-lead" data-reveal="left">FULL STACK <span class="logo-accent">DEVELOPER</span></p>
           <p class="about-text" data-reveal="left">
-            I help businesses build and optimize <strong>WordPress sites, landing pages, and WooCommerce stores</strong> that load fast, scale cleanly, and convert. Whether you need a new build or better <strong>performance, SEO, and UX</strong>, I deliver end-to-end — including Shopify setup, theme work, and integrations across <strong>Wix, Squarespace</strong>, and other builders.
+            My name is Dawood a Full Stack WordPress and WooCommerce developer with <strong>5+ years</strong> of experience and <strong>200+ websites</strong> delivered. I don't rush the site, install a cheap template, and disappear. 
+            I treat <strong>every client's website</strong> as if it were my own business. I don't just install plugins or apply templates. 
+            I <strong>analyze your website</strong>, identify the real issues, and fix them to improve speed, SEO, and conversions.
           </p>
+          <div class="about-actions">
           <a href="images/cv-dawood.pdf" class="btn btn-outline btn-about" download data-reveal="scale">
             <span class="btn-icon">
               <svg viewBox="0 0 24 24" aria-hidden="true">
@@ -167,6 +170,15 @@
             </span>
             <span>Download CV</span>
           </a>
+          <a href="#experience" class="btn btn-outline btn-about" download data-reveal="scale">
+            <span class="btn-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M6 3h9l5 5v13H6V3zm9 2H8v14h10V9h-3a1 1 0 0 1-1-1V5z" />
+              </svg>
+            </span>
+            <span>View Experience</span>
+          </a>
+          </div>
         </div>
         <div class="about-col about-col-stats" data-stagger>
           <div class="stat-card" data-reveal="up">
@@ -174,7 +186,7 @@
             <span class="stat-label">Years of Experience</span>
           </div>
           <div class="stat-card" data-reveal="up">
-            <span class="stat-value">180+</span>
+            <span class="stat-value">200+</span>
             <span class="stat-label">Projects Completed</span>
           </div>
           <div class="stat-card" data-reveal="up">
@@ -309,7 +321,7 @@
     <section id="projects" class="projects">
       <div class="projects-header">
         <h2 class="projects-title" data-reveal="left">
-          Selected <span class="projects-title-accent">Work</span>
+         Some <span class="projects-title-accent">Selected </span> Work
         </h2>
         <div class="project-filters" role="tablist" aria-label="Filter projects" data-stagger>
           <button type="button" class="filter-btn is-active" data-filter="all" data-reveal="scale">All</button>
@@ -321,119 +333,351 @@
         </div>
       </div>
 
-      <article class="project-featured project-card" data-category="saas" data-reveal="up">
-        <div class="project-featured-thumb">
-          <img src="images/trif.png" alt="Tirf Online preview" class="project-img" />
-        </div>
-        <div class="project-featured-body">
-          <h3>TIRF Online | Full Website Development from Scratch to Handoff</h3>
-          <p class="project-subtitle">
-            Developed the full website for TIRF (The International Research Foundation for English Language Education) from initial setup to final handoff. The project included complete website development, structure planning, and implementation of multiple pages while ensuring consistency with brand guidelines.
-          </p>
-          <a href="https://www.tirfonline.org/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
-        </div>
-      </article>
+      <div class="projects-groups" data-stagger>
+        <section class="project-group" aria-label="WordPress projects" data-project-group="saas">
+          <div class="project-group-head" data-reveal="up">
+            <h3 class="project-group-title">WordPress</h3>
+            <div class="project-group-hint">Click any frame to view project details</div>
+          </div>
+          <div class="project-slider" data-slider>
+            <button type="button" class="slider-arrow slider-arrow-prev" data-slider-prev aria-label="Previous project">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 5 9 12l6.5 7 1.5-1.4L12 12l5-5.6z" /></svg>
+            </button>
+            <div class="slider-viewport" data-slider-viewport>
+              <div class="slider-track">
+                <article
+                  class="project-slide"
+                  data-slider-slide
+                  data-project-title="TIRF Online"
+                  data-project-desc="Developed the full website for TIRF (The International Research Foundation for English Language Education) from initial setup to final handoff. The project included complete website development, structure planning, and implementation of multiple pages while ensuring consistency with brand guidelines."
+                  data-project-url="https://www.tirfonline.org/"
+                >
+                  <div class="project-mockups">
+                    <button type="button" class="device device-desktop" data-open-project aria-label="Open project details">
+                      <span class="device-screen">
+                        <img src="images/trif-online.png" alt="TIRF Online preview" loading="lazy" />
+                      </span>
+                    </button>
+                    <button type="button" class="device device-mobile" data-open-project aria-label="Open project details">
+                      <span class="device-screen">
+                        <img src="images/tirf-mobile.png" alt="TIRF Online mobile preview" loading="lazy" />
+                      </span>
+                    </button>
+                  </div>
+                  <div class="project-slide-meta">
+                    <div class="project-slide-name">TIRF Online</div>
+                    <a href="https://www.tirfonline.org/" target="_blank" rel="noopener noreferrer" class="project-slide-cta">View Site →</a>
+                  </div>
+                </article>
 
-      <div class="project-grid" data-stagger>
-        <article class="project-card project-card-compact" data-category="realestate" data-reveal="up">
-          <div class="project-thumb">
-            <img src="images/360.png" alt="360 Vacation Rentals" class="project-img" />
-          </div>
-          <div class="project-card-body">
-            <h3>360 Vacation Rentals | Property Listing Integration, API Development & Dynamic Calculations</h3>
-            <p class="project-subtitle">Worked on the 360 Vacation Rentals platform, integrating property listings through APIs and handling dynamic data such as images, reviews, and property details using Hostaway API. Used Postman for API testing and debugging to ensure smooth data flow and accurate responses. Additionally implemented custom calculation logic for property pricing and related features to improve booking functionality and user experience.</p>
-            <a href="https://www.360-vacationrentals.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
-          </div>
-        </article>
+                <article
+                  class="project-slide"
+                  data-slider-slide
+                  data-project-title="Gemineye"
+                  data-project-desc="Developed the complete website for Gemineye from start to finish based on the provided design. Handled full implementation including front-end development, dynamic data integration, and advanced query handling. Built custom post queries with dynamic filtering to improve data retrieval and user experience. Ensured smooth functionality across all sections and delivered a fully responsive, structured, and scalable website aligned with the client’s requirements."
+                  data-project-url="https://www.gemineye.com/"
+                >
+                  <div class="project-mockups">
+                    <button type="button" class="device device-desktop" data-open-project aria-label="Open project details">
+                      <span class="device-screen">
+                        <img src="images/gemineye-desktop.png" alt="Gemineye preview" loading="lazy" />
+                      </span>
+                    </button>
+                    <button type="button" class="device device-mobile" data-open-project aria-label="Open project details">
+                      <span class="device-screen">
+                        <img src="images/gemineye-mobile.png" alt="Gemineye mobile preview" loading="lazy" />
+                      </span>
+                    </button>
+                  </div>
+                  <div class="project-slide-meta">
+                    <div class="project-slide-name">Gemineye</div>
+                    <a href="https://www.gemineye.com/" target="_blank" rel="noopener noreferrer" class="project-slide-cta">View Site →</a>
+                  </div>
+                </article>
 
-        <article class="project-card project-card-compact" data-category="realestate" data-reveal="up">
-          <div class="project-thumb">
-            <img src="images/villa.png" alt="360 Vacation Rentals" class="project-img" />
-          </div>
-          <div class="project-card-body">
-            <h3>Royal View Jamaica | One-Page Villa Rental Website Design & Development</h3>
-            <p class="project-subtitle">Designed and developed a simple one-page website for Royal View Jamaica, a villa rental business. The project focused on creating a clean, minimal, and user-friendly layout aligned with the client’s brand requirements. Delivered a lightweight website suitable for showcasing a single villa rental with clear structure and easy navigation. Handled the entire process from initial design to final handoff, with preparation for future booking integration.</p>
-            <a href="https://royal-view-jamaica.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
-          </div>
-        </article>
+                <article
+                  class="project-slide"
+                  data-slider-slide
+                  data-project-title="Search Recovery"
+                  data-project-desc="Redesigned and rebuilt the Search Recovery website by fixing a cluttered and inconsistent layout with spacing and alignment issues. Transformed the broken structure into a clean, fully functional, and responsive website. Improved overall UI/UX by standardizing design elements, correcting visual hierarchy, and ensuring consistency across all sections. Delivered a refined and stable website aligned with modern design standards and usability best practices."
+                  data-project-url="https://search-recovery.com/"
+                >
+                  <div class="project-mockups">
+                    <button type="button" class="device device-desktop" data-open-project aria-label="Open project details">
+                      <span class="device-screen">
+                        <img src="images/recovery-desktop.png" alt="Search Recovery preview" loading="lazy" />
+                      </span>
+                    </button>
+                    <button type="button" class="device device-mobile" data-open-project aria-label="Open project details">
+                      <span class="device-screen">
+                        <img src="images/recovery-mobile.png" alt="Search Recovery mobile preview" loading="lazy" />
+                      </span>
+                    </button>
+                  </div>
+                  <div class="project-slide-meta">
+                    <div class="project-slide-name">Search Recovery</div>
+                    <a href="https://search-recovery.com/" target="_blank" rel="noopener noreferrer" class="project-slide-cta">View Site →</a>
+                  </div>
+                </article>
 
-        <article class="project-card project-card-compact" data-category="saas">
-          <div class="project-thumb">
-            <img src="images/gemeniye.png" alt="Gemineye" class="project-img" />
+                <article
+                  class="project-slide"
+                  data-slider-slide
+                  data-project-title="All Well Rents"
+                  data-project-desc="Developed the All Well Rents website from scratch to final handover, working independently as the sole developer on the project. Delivered all required features end-to-end, including custom functionality and full site setup. Managed the import of thousands of products using WP All Import Pro, ensuring accurate data mapping and structured content organization. Implemented custom WordPress queries to achieve advanced filtering and dynamic functionality across the platform. Focused on performance, scalability, and delivering a fully functional, production-ready rental website."
+                  data-project-url="https://allwellrents.com/"
+                >
+                  <div class="project-mockups">
+                    <button type="button" class="device device-desktop" data-open-project aria-label="Open project details">
+                      <span class="device-screen">
+                        <img src="images/allwell.png" alt="All Well Rents preview" loading="lazy" />
+                      </span>
+                    </button>
+                    <button type="button" class="device device-mobile" data-open-project aria-label="Open project details">
+                      <span class="device-screen">
+                        <img src="images/allwell-mobile.png" alt="All Well Rents mobile preview" loading="lazy" />
+                      </span>
+                    </button>
+                  </div>
+                  <div class="project-slide-meta">
+                    <div class="project-slide-name">All Well Rents</div>
+                    <a href="https://allwellrents.com/" target="_blank" rel="noopener noreferrer" class="project-slide-cta">View Site →</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <button type="button" class="slider-arrow slider-arrow-next" data-slider-next aria-label="Next project">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 19 15 12 8.5 5 7 6.4l5 5.6-5 5.6z" /></svg>
+            </button>
+            <div class="slider-pagination" data-slider-pagination aria-label="Project navigation"></div>
           </div>
-          <div class="project-card-body">
-            <h3>Gemineye | Full Website Development with Dynamic Data, Queries & Advanced Filtering</h3>
-            <p class="project-subtitle">Developed the complete website for Gemineye from start to finish based on the provided design. Handled full implementation including front-end development, dynamic data integration, and advanced query handling. Built custom post queries with dynamic filtering to improve data retrieval and user experience. Ensured smooth functionality across all sections and delivered a fully responsive, structured, and scalable website aligned with the client’s requirements.</p>
-            <a href="https://www.gemineye.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
-          </div>
-        </article>
+        </section>
 
-        <article class="project-card project-card-compact" data-category="saas" data-reveal="up">
-          <div class="project-thumb">
-            <img src="images/search.png" alt="search" class="project-img" />
+        <section class="project-group" aria-label="Booking website projects" data-project-group="realestate">
+          <div class="project-group-head" data-reveal="up">
+            <h3 class="project-group-title">Booking Sites</h3>
+            <div class="project-group-hint">Click any frame to view project details</div>
           </div>
-          <div class="project-card-body">
-            <h3>Search Recovery | Website Redesign, UI/UX Fixes & Layout Optimization</h3>
-            <p class="project-subtitle">Redesigned and rebuilt the Search Recovery website by fixing a cluttered and inconsistent layout with spacing and alignment issues. Transformed the broken structure into a clean, fully functional, and responsive website. Improved overall UI/UX by standardizing design elements, correcting visual hierarchy, and ensuring consistency across all sections. Delivered a refined and stable website aligned with modern design standards and usability best practices.</p>
-            <a href="https://search-recovery.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
-          </div>
-        </article>
+          <div class="project-slider" data-slider>
+            <button type="button" class="slider-arrow slider-arrow-prev" data-slider-prev aria-label="Previous project">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 5 9 12l6.5 7 1.5-1.4L12 12l5-5.6z" /></svg>
+            </button>
+            <div class="slider-viewport" data-slider-viewport>
+              <div class="slider-track">
+                <article
+                  class="project-slide"
+                  data-slider-slide
+                  data-project-title="360 Vacation Rentals"
+                  data-project-desc="Worked on the 360 Vacation Rentals platform, integrating property listings through APIs and handling dynamic data such as images, reviews, and property details using Hostaway API. Used Postman for API testing and debugging to ensure smooth data flow and accurate responses. Additionally implemented custom calculation logic for property pricing and related features to improve booking functionality and user experience."
+                  data-project-url="https://www.360-vacationrentals.com/"
+                >
+                  <div class="project-mockups">
+                    <button type="button" class="device device-desktop" data-open-project aria-label="Open project details">
+                      <span class="device-screen">
+                        <img src="images/vacation-desktop.png" alt="360 Vacation Rentals preview" loading="lazy" />
+                      </span>
+                    </button>
+                    <button type="button" class="device device-mobile" data-open-project aria-label="Open project details">
+                      <span class="device-screen">
+                        <img src="images/vacation-mobile.png" alt="360 Vacation Rentals mobile preview" loading="lazy" />
+                      </span>
+                    </button>
+                  </div>
+                  <div class="project-slide-meta">
+                    <div class="project-slide-name">360 Vacation Rentals</div>
+                    <a href="https://www.360-vacationrentals.com/" target="_blank" rel="noopener noreferrer" class="project-slide-cta">View Site →</a>
+                  </div>
+                </article>
 
-        <article class="project-card project-card-compact" data-category="more">
-          <div class="project-thumb">
-            <img src="images/jovie.png" alt="Jovie childcare" class="project-img" />
+                <article
+                  class="project-slide"
+                  data-slider-slide
+                  data-project-title="Royal View Jamaica"
+                  data-project-desc="Designed and developed a simple one-page website for Royal View Jamaica, a villa rental business. The project focused on creating a clean, minimal, and user-friendly layout aligned with the client’s brand requirements. Delivered a lightweight website suitable for showcasing a single villa rental with clear structure and easy navigation. Handled the entire process from initial design to final handoff, with preparation for future booking integration."
+                  data-project-url="https://royal-view-jamaica.com/"
+                >
+                  <div class="project-mockups">
+                    <button type="button" class="device device-desktop" data-open-project aria-label="Open project details">
+                      <span class="device-screen">
+                        <img src="images/villa.png" alt="Royal View Jamaica preview" loading="lazy" />
+                      </span>
+                    </button>
+                    <button type="button" class="device device-mobile" data-open-project aria-label="Open project details">
+                      <span class="device-screen">
+                        <img src="images/villa-mobile.png" alt="Royal View Jamaica mobile preview" loading="lazy" />
+                      </span>
+                    </button>
+                  </div>
+                  <div class="project-slide-meta">
+                    <div class="project-slide-name">Royal View Jamaica</div>
+                    <a href="https://royal-view-jamaica.com/" target="_blank" rel="noopener noreferrer" class="project-slide-cta">View Site →</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <button type="button" class="slider-arrow slider-arrow-next" data-slider-next aria-label="Next project">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 19 15 12 8.5 5 7 6.4l5 5.6-5 5.6z" /></svg>
+            </button>
+            <div class="slider-pagination" data-slider-pagination aria-label="Project navigation"></div>
           </div>
-          <div class="project-card-body">
-            <h3>Jovie | Frontend Development & Statamic CMS Integration for Large-Scale Website</h3>
-            <p class="project-subtitle">Worked as part of a development team on the Jovie website, contributing to a large-scale project with a focus on frontend development and Statamic CMS integration. Handled dynamic content rendering through Statamic, including fetching and displaying structured content across multiple pages. Worked with Git and GitHub branching workflows to ensure smooth collaboration without code conflicts. Developed and maintained key components such as listings, forms, blog pages (listing and single templates), testimonials, and job application forms, ensuring consistency, responsiveness, and functionality across the platform.</p>
-            <a href="https://www.jovie.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
-          </div>
-        </article>
+        </section>
 
-        <article class="project-card project-card-compact" data-category="ecommerce saas more" data-reveal="up">
-          <div class="project-thumb">
-            <img src="images/women.png" alt="Shopify WordPress integration" class="project-img" />
+        <section class="project-group" aria-label="eCommerce projects" data-project-group="ecommerce">
+          <div class="project-group-head" data-reveal="up">
+            <h3 class="project-group-title">eCommerce</h3>
+            <div class="project-group-hint">Click any frame to view project details</div>
           </div>
-          <div class="project-card-body">
-            <h3>Women’s Bean Project | Shopify + WordPress WooCommerce Integration & Full Site Development</h3>
-            <p class="project-subtitle">Worked on the Women’s Bean Project website, which consists of a hybrid setup combining Shopify and WordPress WooCommerce. Managed end-to-end development across different parts of the system, including Shopify product integration into WordPress using ShopWP. Focused on building seamless product syncing, improving checkout and order user flows, and enhancing overall purchasing experience. Additionally developed new pages and features while ensuring consistency, stability, and smooth interaction between Shopify and WooCommerce systems.</p>
-            <a href="https://www.womensbeanproject.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
-          </div>
-        </article>
+          <div class="project-slider" data-slider>
+            <button type="button" class="slider-arrow slider-arrow-prev" data-slider-prev aria-label="Previous project">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 5 9 12l6.5 7 1.5-1.4L12 12l5-5.6z" /></svg>
+            </button>
+            <div class="slider-viewport" data-slider-viewport>
+              <div class="slider-track">
+                <article
+                  class="project-slide"
+                  data-slider-slide
+                  data-project-title="Women’s Bean Project"
+                  data-project-desc="Worked on the Women’s Bean Project website, which consists of a hybrid setup combining Shopify and WordPress WooCommerce. Managed end-to-end development across different parts of the system, including Shopify product integration into WordPress using ShopWP. Focused on building seamless product syncing, improving checkout and order user flows, and enhancing overall purchasing experience. Additionally developed new pages and features while ensuring consistency, stability, and smooth interaction between Shopify and WooCommerce systems."
+                  data-project-url="https://www.womensbeanproject.com/"
+                >
+                  <div class="project-mockups">
+                    <button type="button" class="device device-desktop" data-open-project aria-label="Open project details">
+                      <span class="device-screen">
+                        <img src="images/women-desktop.png" alt="Women’s Bean Project preview" loading="lazy" />
+                      </span>
+                    </button>
+                    <button type="button" class="device device-mobile" data-open-project aria-label="Open project details">
+                      <span class="device-screen">
+                        <img src="images/women-mobile.png" alt="Women’s Bean Project mobile preview" loading="lazy" />
+                      </span>
+                    </button>
+                  </div>
+                  <div class="project-slide-meta">
+                    <div class="project-slide-name">Women’s Bean Project</div>
+                    <a href="https://www.womensbeanproject.com/" target="_blank" rel="noopener noreferrer" class="project-slide-cta">View Site →</a>
+                  </div>
+                </article>
 
-        <article class="project-card project-card-compact" data-category="ecommerce" data-reveal="up">
-          <div class="project-thumb">
-            <img src="images/brads.png" alt="Plant-based snack brand" class="project-img" />
+                <article
+                  class="project-slide"
+                  data-slider-slide
+                  data-project-title="Brad’s Plant Based"
+                  data-project-desc="Provided ongoing maintenance and support for the Brad’s Plant Based website, with a focus on debugging and resolving critical UI issues. Investigated and fixed a persistent CSS rendering problem that was affecting the site’s layout consistency. Identified the root cause and implemented a stable solution to ensure the issue did not reoccur. Also supported minor feature updates and ensured overall site stability, performance, and consistent front-end behavior."
+                  data-project-url="https://www.bradsplantbased.com/"
+                >
+                  <div class="project-mockups">
+                    <button type="button" class="device device-desktop" data-open-project aria-label="Open project details">
+                      <span class="device-screen">
+                        <img src="images/brads-desktop.png" alt="Brad’s Plant Based preview" loading="lazy" />
+                      </span>
+                    </button>
+                    <button type="button" class="device device-mobile" data-open-project aria-label="Open project details">
+                      <span class="device-screen">
+                        <img src="images/brads-mobile.png" alt="Brad’s Plant Based mobile preview" loading="lazy" />
+                      </span>
+                    </button>
+                  </div>
+                  <div class="project-slide-meta">
+                    <div class="project-slide-name">Brad’s Plant Based</div>
+                    <a href="https://www.bradsplantbased.com/" target="_blank" rel="noopener noreferrer" class="project-slide-cta">View Site →</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <button type="button" class="slider-arrow slider-arrow-next" data-slider-next aria-label="Next project">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 19 15 12 8.5 5 7 6.4l5 5.6-5 5.6z" /></svg>
+            </button>
+            <div class="slider-pagination" data-slider-pagination aria-label="Project navigation"></div>
           </div>
-          <div class="project-card-body">
-            <h3>Brad’s Plant Based | Website Maintenance, Bug Fixing & Performance Debugging</h3>
-            <p class="project-subtitle">Provided ongoing maintenance and support for the Brad’s Plant Based website, with a focus on debugging and resolving critical UI issues. Investigated and fixed a persistent CSS rendering problem that was affecting the site’s layout consistency. Identified the root cause and implemented a stable solution to ensure the issue did not reoccur. Also supported minor feature updates and ensured overall site stability, performance, and consistent front-end behavior.</p>
-            <a href="https://www.bradsplantbased.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
-          </div>
-        </article>
+        </section>
 
-        <article class="project-card project-card-compact" data-category="squarespace" data-reveal="up">
-          <div class="project-thumb">
-            <img src="images/assest-home.png" alt="Plant-based snack brand" class="project-img" />
+        <section class="project-group" aria-label="Squarespace projects" data-project-group="squarespace">
+          <div class="project-group-head" data-reveal="up">
+            <h3 class="project-group-title">Squarespace</h3>
+            <div class="project-group-hint">Click any frame to view project details</div>
           </div>
-          <div class="project-card-body">
-            <h3>Asset Fitness | Website Updated with New Pages, Improved Structure & Brand Consistency</h3>
-            <p class="project-subtitle">Worked on the Asset Fitness website by developing 3 new pages (Home, About Us, and Classes), refining the header and footer, and improving key UI sections. Ensured all updates aligned with brand guidelines to deliver a consistent design system, better structure, and improved user experience across the site.</p>
-            <a href="https://assetfitness.co.uk/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
+          <div class="project-slider" data-slider>
+            <button type="button" class="slider-arrow slider-arrow-prev" data-slider-prev aria-label="Previous project">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 5 9 12l6.5 7 1.5-1.4L12 12l5-5.6z" /></svg>
+            </button>
+            <div class="slider-viewport" data-slider-viewport>
+              <div class="slider-track">
+                <article
+                  class="project-slide"
+                  data-slider-slide
+                  data-project-title="Asset Fitness"
+                  data-project-desc="Worked on the Asset Fitness website by developing 3 new pages (Home, About Us, and Classes), refining the header and footer, and improving key UI sections. Ensured all updates aligned with brand guidelines to deliver a consistent design system, better structure, and improved user experience across the site."
+                  data-project-url="https://assetfitness.co.uk/"
+                >
+                  <div class="project-mockups">
+                    <button type="button" class="device device-desktop" data-open-project aria-label="Open project details">
+                      <span class="device-screen">
+                        <img src="images/assest-desktop.png" alt="Asset Fitness preview" loading="lazy" />
+                      </span>
+                    </button>
+                    <button type="button" class="device device-mobile" data-open-project aria-label="Open project details">
+                      <span class="device-screen">
+                        <img src="images/assest-mobile.png" alt="Asset Fitness mobile preview" loading="lazy" />
+                      </span>
+                    </button>
+                  </div>
+                  <div class="project-slide-meta">
+                    <div class="project-slide-name">Asset Fitness</div>
+                    <a href="https://assetfitness.co.uk/" target="_blank" rel="noopener noreferrer" class="project-slide-cta">View Site →</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <button type="button" class="slider-arrow slider-arrow-next" data-slider-next aria-label="Next project">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 19 15 12 8.5 5 7 6.4l5 5.6-5 5.6z" /></svg>
+            </button>
+            <div class="slider-pagination" data-slider-pagination aria-label="Project navigation"></div>
           </div>
-        </article>
+        </section>
 
-        <article class="project-card project-card-compact" data-category="ecommerce saas" data-reveal="up">
-          <div class="project-thumb">
-            <img src="images/allwell.png" alt="Plant-based snack brand" class="project-img" />
+        <section class="project-group" aria-label="Full stack projects" data-project-group="more">
+          <div class="project-group-head" data-reveal="up">
+            <h3 class="project-group-title">Full Stack</h3>
+            <div class="project-group-hint">Click any frame to view project details</div>
           </div>
-          <div class="project-card-body">
-            <h3>All Well Rents | Full Website Development, Product Import & Custom Query Functionality</h3>
-            <p class="project-subtitle">Developed the All Well Rents website from scratch to final handover, working independently as the sole developer on the project. Delivered all required features end-to-end, including custom functionality and full site setup. Managed the import of thousands of products using WP All Import Pro, ensuring accurate data mapping and structured content organization. Implemented custom WordPress queries to achieve advanced filtering and dynamic functionality across the platform. Focused on performance, scalability, and delivering a fully functional, production-ready rental website.</p>
-            <a href="https://allwellrents.com/" target="_blank" rel="noopener noreferrer" class="project-link">View Project</a>
+          <div class="project-slider" data-slider>
+            <button type="button" class="slider-arrow slider-arrow-prev" data-slider-prev aria-label="Previous project">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 5 9 12l6.5 7 1.5-1.4L12 12l5-5.6z" /></svg>
+            </button>
+            <div class="slider-viewport" data-slider-viewport>
+              <div class="slider-track">
+                <article
+                  class="project-slide"
+                  data-slider-slide
+                  data-project-title="Jovie"
+                  data-project-desc="Worked as part of a development team on the Jovie website, contributing to a large-scale project with a focus on frontend development and Statamic CMS integration. Handled dynamic content rendering through Statamic, including fetching and displaying structured content across multiple pages. Worked with Git and GitHub branching workflows to ensure smooth collaboration without code conflicts. Developed and maintained key components such as listings, forms, blog pages (listing and single templates), testimonials, and job application forms, ensuring consistency, responsiveness, and functionality across the platform."
+                  data-project-url="https://www.jovie.com/"
+                >
+                  <div class="project-mockups">
+                    <button type="button" class="device device-desktop" data-open-project aria-label="Open project details">
+                      <span class="device-screen">
+                        <img src="images/jovie-desktop.png" alt="Jovie preview" loading="lazy" />
+                      </span>
+                    </button>
+                    <button type="button" class="device device-mobile" data-open-project aria-label="Open project details">
+                      <span class="device-screen">
+                        <img src="images/jovie-mobile.png" alt="Jovie mobile preview" loading="lazy" />
+                      </span>
+                    </button>
+                  </div>
+                  <div class="project-slide-meta">
+                    <div class="project-slide-name">Jovie</div>
+                    <a href="https://www.jovie.com/" target="_blank" rel="noopener noreferrer" class="project-slide-cta">View Site →</a>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <button type="button" class="slider-arrow slider-arrow-next" data-slider-next aria-label="Next project">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 19 15 12 8.5 5 7 6.4l5 5.6-5 5.6z" /></svg>
+            </button>
+            <div class="slider-pagination" data-slider-pagination aria-label="Project navigation"></div>
           </div>
-        </article>
-
+        </section>
       </div>
 
       <div class="projects-cta-wrap">
@@ -442,7 +686,7 @@
     </section>
 
     <section id="experience" class="experience">
-      <h2 class="section-heading section-heading-display" data-reveal="scale">Career Journey</h2>
+      <h2 class="section-heading section-heading-display" data-reveal="scale">Career Experience</h2>
       <div class="timeline">
         <article class="timeline-item" data-reveal="left">
           <span class="timeline-dot" aria-hidden="true"></span>
@@ -451,14 +695,14 @@
               <h3 class="timeline-role">Junior Full Stack Developer</h3>
               <div class="timeline-right">
                 <span class="timeline-company">Techsols International</span>
-                <span class="timeline-dates">2023 — 2025</span>
+                <span class="timeline-dates">2022 — 2025</span>
               </div>
             </div>
             <ul class="timeline-list">
-              <li>Worked as a Key Frontend Developer, building and optimizing user interfaces.</li>
-              <li>Backend support across multiple shipped products.</li>
-              <li>Collaboration across teams; on-time delivery.</li>
-              <li>Recognized as Employee of the Month several times for outstanding performance.</li>
+              <li>Worked as a Key WordPress Developer, responsible for the <strong> maintenance of 80+ </strong> WordPress and WooCommerce sites, divided into tiers based on complexity.</li>
+              <li>Managed the inventory management system of a POS <strong>(Point of Sale)</strong> platform.</li>
+              <li>Collaborated with teams on large-scale projects, <strong>using Git</strong> to ensure smooth workflows and avoid conflicts.</li>
+              <li>Recognized as <strong>Employee of the Month</strong> several times for outstanding performance.</li>
             </ul>
             <img
               src="images/employee-of-month.jpeg"
@@ -482,9 +726,9 @@
               </div>
             </div>
             <ul class="timeline-list">
-              <li>Worked as a Full Stack Developer handling both frontend and backend development.</li>
-              <li>Deployed 20+ sites to new domains with smooth cutovers.</li>
-              <li>Led a small dev team for delivery and quality.</li>
+              <li>Worked as a Full Stack Developer, leading a team of WordPress developers.</li>
+              <li>Responsible for the monthly maintenance of multiple WordPress sites.</li>
+              <li>Deployed 20+ sites to new domains in a single day.</li>
             </ul>
           </div>
         </article>
@@ -606,6 +850,26 @@
         <path d="M7 14l5-5 5 5z" />
       </svg>
     </button>
+
+    <div class="project-modal" id="projectModal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="project-modal__backdrop" data-close-modal></div>
+      <div class="project-modal__panel" role="document">
+        <button type="button" class="project-modal__close" aria-label="Close" data-close-modal>
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path
+              d="M18.3 5.7 12 12l6.3 6.3-1.4 1.4L10.6 13.4 4.3 19.7 2.9 18.3 9.2 12 2.9 5.7 4.3 4.3l6.3 6.3 6.3-6.3z"
+            />
+          </svg>
+        </button>
+        <h3 class="project-modal__title" id="projectModalTitle">Project</h3>
+        <p class="project-modal__text" id="projectModalText"></p>
+        <div class="project-modal__actions">
+          <a class="btn btn-solid project-modal__cta" id="projectModalLink" href="#" target="_blank" rel="noopener noreferrer">
+            <span>View Site</span>
+          </a>
+        </div>
+      </div>
+    </div>
 
     <script type="text/javascript" src="https://unpkg.com/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="script.js"></script>
